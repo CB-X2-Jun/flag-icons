@@ -1,31 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>flag-icons: Free Country Flags in SVG</title>
-
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-9LZGY0J38Z"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-9LZGY0J38Z");
-    </script>
-
-    <!-- Meta tags -->
-    <meta property="og:title" content="flag-icons: Free Country Flags in SVG" />
+    <title>Flag Icons: 免费 SVG 旗帜合集</title>
+    <meta property="og:title" content="Flag Icons: 免费 SVG 旗帜合集" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://flagicons.lipis.dev" />
     <meta
       property="og:description"
-      content="A curated collection of all country flags in SVG"
+      content="一个 SVG 格式的旗帜合集 —— 附带 CSS 以便于集成"
     />
     <meta
       property="og:image"
@@ -34,7 +18,7 @@
     <link rel="canonical" href="https://flagicons.lipis.dev" />
     <link rel="icon" href="/favicon.ico" />
 
-    <!-- Main styles -->
+    <!-- 主样式 -->
     <style>
       :root {
         --primary: #2b8a3e;
@@ -51,7 +35,7 @@
         --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         --transition: all 0.2s ease;
 
-        /* Code syntax colors */
+        /* 代码高亮颜色 */
         --code-bg: #212529;
         --code-text: #e9ecef;
         --code-keyword: #339af0;
@@ -69,15 +53,13 @@
       }
 
       body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-          Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         line-height: 1.5;
         color: var(--dark);
         background-color: var(--light);
       }
 
-      /* Header */
+      /* 头部 */
       .header {
         background: linear-gradient(135deg, var(--primary), var(--secondary));
         color: white;
@@ -105,7 +87,7 @@
         opacity: 0.9;
       }
 
-      /* Installation box */
+      /* 安装框 */
       .install-box {
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: var(--border-radius);
@@ -173,7 +155,7 @@
         background-color: rgba(255, 255, 255, 0.2);
       }
 
-      /* Usage guide */
+      /* 用法指南 */
       .usage-btn {
         background: transparent;
         border: none;
@@ -189,7 +171,7 @@
         color: white;
       }
 
-      /* Enhanced Modal */
+      /* 弹窗 */
       .modal {
         position: fixed;
         top: 0;
@@ -289,7 +271,7 @@
         font-size: 0.9rem;
       }
 
-      /* Enhanced code blocks */
+      /* 代码块 */
       .code-block {
         position: relative;
         background-color: var(--code-bg);
@@ -341,33 +323,15 @@
         color: var(--code-text);
       }
 
-      /* Syntax highlighting */
-      .token.keyword {
-        color: var(--code-keyword);
-      }
+      /* 语法高亮 */
+      .token.keyword { color: var(--code-keyword); }
+      .token.string { color: var(--code-string); }
+      .token.tag { color: var(--code-tag); }
+      .token.attribute { color: var(--code-attribute); }
+      .token.value { color: var(--code-value); }
+      .token.comment { color: var(--code-comment); font-style: italic; }
 
-      .token.string {
-        color: var(--code-string);
-      }
-
-      .token.tag {
-        color: var(--code-tag);
-      }
-
-      .token.attribute {
-        color: var(--code-attribute);
-      }
-
-      .token.value {
-        color: var(--code-value);
-      }
-
-      .token.comment {
-        color: var(--code-comment);
-        font-style: italic;
-      }
-
-      /* Action buttons */
+      /* 操作按钮 */
       .action-buttons {
         margin-top: 1.5rem;
         display: flex;
@@ -400,7 +364,7 @@
         font-size: 1.1rem;
       }
 
-      /* Search and controls */
+      /* 搜索和控件 */
       .controls {
         margin: 1rem auto 2rem;
         display: flex;
@@ -440,7 +404,7 @@
         color: var(--gray);
       }
 
-      /* Continent filter */
+      /* 筛选下拉菜单 */
       .filter-dropdown {
         position: relative;
       }
@@ -503,43 +467,7 @@
         font-weight: 500;
       }
 
-      /* Format switch (fixed) */
-      .format-switch {
-        position: fixed;
-        right: 1rem;
-        top: 50%;
-        transform: translateY(-50%);
-        display: flex;
-        flex-direction: column;
-        border: 1px solid var(--light-gray);
-        border-radius: var(--border-radius);
-        overflow: hidden;
-        background-color: white;
-        box-shadow: var(--shadow);
-        z-index: 100;
-      }
-
-      .format-switch button {
-        padding: 0.75rem;
-        background: none;
-        border: none;
-        cursor: pointer;
-        font-size: 0.85rem;
-        font-weight: 500;
-        transition: var(--transition);
-        border-bottom: 1px solid var(--light-gray);
-      }
-
-      .format-switch button:last-child {
-        border-bottom: none;
-      }
-
-      .format-switch button.active {
-        background-color: var(--primary);
-        color: white;
-      }
-
-      /* Flags grid */
+      /* 旗帜网格 */
       .section-title {
         text-align: center;
         margin: 2rem 0 1.5rem;
@@ -572,13 +500,9 @@
       .flag-img-container {
         position: relative;
         width: 100%;
-        padding-top: 75%; /* 4:3 aspect ratio */
+        padding-top: 75%; /* 4:3 比例 */
         overflow: hidden;
         border-bottom: 1px solid var(--light-gray);
-      }
-
-      .flag-img-square {
-        padding-top: 100%; /* 1:1 aspect ratio */
       }
 
       .flag-img-container img {
@@ -608,7 +532,7 @@
         text-overflow: ellipsis;
       }
 
-      /* Copy tooltip */
+      /* 复制提示框 */
       .tooltip {
         position: fixed;
         top: 50%;
@@ -625,67 +549,22 @@
         transition: opacity 0.3s ease;
       }
 
-      /* Responsive */
+      /* 响应式 */
       @media (max-width: 768px) {
-        .header h1 {
-          font-size: 2rem;
-        }
-
-        .flags-grid {
-          grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-          gap: 1rem;
-        }
-
-        .controls {
-          flex-direction: column;
-          align-items: stretch;
-        }
-
-        .search-box {
-          max-width: none;
-        }
-
-        .format-switch {
-          position: fixed;
-          top: auto;
-          bottom: 1rem;
-          right: 1rem;
-          transform: none;
-          flex-direction: row;
-        }
-
-        .format-switch button {
-          border-bottom: none;
-          border-right: 1px solid var(--light-gray);
-          padding: 0.5rem 0.75rem;
-        }
-
-        .format-switch button:last-child {
-          border-right: none;
-        }
-
-        .modal-content {
-          padding: 1.5rem;
-          width: 95%;
-        }
+        .header h1 { font-size: 2rem; }
+        .flags-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1rem; }
+        .controls { flex-direction: column; align-items: stretch; }
+        .search-box { max-width: none; }
+        .modal-content { padding: 1.5rem; width: 95%; }
       }
 
       @media (max-width: 480px) {
-        .flags-grid {
-          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        }
-
-        .action-buttons {
-          flex-direction: column;
-          align-items: stretch;
-        }
-
-        .btn {
-          justify-content: center;
-        }
+        .flags-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+        .action-buttons { flex-direction: column; align-items: stretch; }
+        .btn { justify-content: center; }
       }
 
-      /* Footer */
+      /* 页脚 */
       .footer {
         text-align: center;
         padding: 2rem 1rem;
@@ -706,21 +585,15 @@
     </style>
 
     <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <!-- Custom Flag Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- 自定义 Flag Icons CSS -->
     <link href="./css/flag-icons.min.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <h1>Flag Icons</h1>
-        <p>
-          A curated collection of all country flags in SVG — plus the CSS for
-          easier integration
-        </p>
+        <p>一个 SVG 格式的旗帜合集 —— 附带 CSS 以便于集成</p>
 
         <div class="install-tabs">
           <button class="install-tab active" data-tab="npm">npm</button>
@@ -734,17 +607,14 @@
           </button>
         </div>
 
-        <button class="usage-btn">How to use?</button>
+        <button class="usage-btn">如何使用？</button>
 
         <div class="action-buttons">
-          <a href="https://github.com/lipis/flag-icons" class="btn">
-            <i class="bi bi-github"></i> View on GitHub
+          <a href="https://github.com/CB-X2-Jun/flag-icons" class="btn">
+            <i class="bi bi-github"></i> 在 GitHub 上查看
           </a>
-          <a
-            href="https://github.com/lipis/flag-icons/archive/main.zip"
-            class="btn"
-          >
-            <i class="bi bi-cloud-arrow-down"></i> Download Flags
+          <a href="https://github.com/CB-X2-Jun/flag-icons/archive/main.zip" class="btn">
+            <i class="bi bi-cloud-arrow-down"></i> 下载旗帜
           </a>
         </div>
       </div>
@@ -754,67 +624,58 @@
       <div class="controls">
         <div class="search-box">
           <i class="bi bi-search"></i>
-          <input type="text" id="search-flag" placeholder="Search flags..." />
+          <input type="text" id="search-flag" placeholder="搜索旗帜..." />
         </div>
 
         <div class="filter-dropdown">
           <button class="filter-btn">
-            All Continents <i class="bi bi-chevron-down"></i>
+            全部分类 <i class="bi bi-chevron-down"></i>
           </button>
           <div class="filter-menu">
-            <div class="filter-option active" data-filter="all">
-              All Continents
-            </div>
-            <div class="filter-option" data-filter="Africa">Africa</div>
-            <div class="filter-option" data-filter="Asia">Asia</div>
-            <div class="filter-option" data-filter="Europe">Europe</div>
-            <div class="filter-option" data-filter="North America">
-              North America
-            </div>
-            <div class="filter-option" data-filter="Oceania">Oceania</div>
-            <div class="filter-option" data-filter="South America">
-              South America
-            </div>
-            <div class="filter-option" data-filter="Antarctica">Antarctica</div>
-            <div class="filter-option" data-filter="non-iso">Non-ISO Flags</div>
+            <div class="filter-option active" data-filter="all">全部分类</div>
+            <div class="filter-option" data-filter="iso">ISO 国家</div>
+            <div class="filter-option" data-filter="region">地区</div>
+            <div class="filter-option" data-filter="disputed">争议地区</div>
+            <div class="filter-option" data-filter="organization">国际组织</div>
+            <div class="filter-option" data-filter="other">其他</div>
           </div>
         </div>
       </div>
 
-      <h2 class="section-title">ISO 3166-1-alpha-2 Flags</h2>
+      <!-- 分类区域 -->
+      <h2 class="section-title" id="title-iso">ISO 3166-1 旗帜</h2>
       <div id="iso-flags" class="flags-grid"></div>
 
-      <h2 class="section-title">Other Flags</h2>
-      <div id="non-iso-flags" class="flags-grid"></div>
+      <h2 class="section-title" id="title-region">地区旗帜</h2>
+      <div id="region-flags" class="flags-grid"></div>
+
+      <h2 class="section-title" id="title-disputed">争议地区旗帜</h2>
+      <div id="disputed-flags" class="flags-grid"></div>
+
+      <h2 class="section-title" id="title-organization">国际组织旗帜</h2>
+      <div id="organization-flags" class="flags-grid"></div>
+
+      <h2 class="section-title" id="title-other">其他旗帜</h2>
+      <div id="other-flags" class="flags-grid"></div>
     </main>
 
-    <div class="format-switch">
-      <button id="format-4x3" class="active" title="4:3 format">4:3</button>
-      <button id="format-1x1" title="1:1 format">1:1</button>
-    </div>
+    <div id="copy-tooltip" class="tooltip">已复制到剪贴板！</div>
 
-    <div id="copy-tooltip" class="tooltip">Copied to clipboard!</div>
-
-    <!-- Enhanced Usage Modal -->
+    <!-- 使用说明弹窗 -->
     <div id="usage-modal" class="modal">
       <div class="modal-content">
         <button class="modal-close"><i class="bi bi-x-lg"></i></button>
-        <h3 class="modal-title">How to use flag-icons</h3>
+        <h3 class="modal-title">如何使用 flag-icons</h3>
 
         <div class="modal-section">
-          <h4 class="modal-section-title">1. Import the CSS</h4>
-          <p>
-            First, include the CSS in your project using one of these methods:
-          </p>
+          <h4 class="modal-section-title">1. 引入 CSS</h4>
+          <p>首先，使用以下方法之一将 CSS 引入你的项目：</p>
 
           <div class="code-block">
             <div class="code-header">
-              <span class="code-label">JavaScript / Module</span>
-              <button
-                class="code-copy-btn"
-                data-code='import "flag-icons/css/flag-icons.min.css";'
-              >
-                <i class="bi bi-clipboard"></i> Copy
+              <span class="code-label">JavaScript / 模块</span>
+              <button class="code-copy-btn" data-code='import "flag-icons/css/flag-icons.min.css";'>
+                <i class="bi bi-clipboard"></i> 复制
               </button>
             </div>
             <div class="code-content">
@@ -825,11 +686,8 @@
           <div class="code-block">
             <div class="code-header">
               <span class="code-label">HTML / CDN</span>
-              <button
-                class="code-copy-btn"
-                data-code='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />'
-              >
-                <i class="bi bi-clipboard"></i> Copy
+              <button class="code-copy-btn" data-code='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />'>
+                <i class="bi bi-clipboard"></i> 复制
               </button>
             </div>
             <div class="code-content">
@@ -840,59 +698,28 @@
         </div>
 
         <div class="modal-section">
-          <h4 class="modal-section-title">2. Use in your HTML</h4>
-          <p>
-            Add the classes <code class="inline-code">.fi</code> and
-            <code class="inline-code">.fi-xx</code> to an empty span to display
-            a flag inline. Replace <code class="inline-code">xx</code> with the
-            ISO 3166-1-alpha-2 code of the country.
-          </p>
+          <h4 class="modal-section-title">2. 在 HTML 中使用</h4>
+          <p>在空 span 标签上添加 <code class="inline-code">.fi</code> 和 <code class="inline-code">.fi-xx</code> 类即可显示旗帜。将 <code class="inline-code">xx</code> 替换为对应的旗帜代码。</p>
 
           <div class="code-block">
             <div class="code-header">
-              <span class="code-label">Standard 4:3 format</span>
-              <button class="code-copy-btn" id="copy-standard-code">
-                <i class="bi bi-clipboard"></i> Copy
+              <span class="code-label">标准 4:3 格式</span>
+              <button class="code-copy-btn" id="copy-standard-code" data-code='<span class="fi fi-us"></span> United States'>
+                <i class="bi bi-clipboard"></i> 复制
               </button>
             </div>
             <div class="code-content">
               <pre><span class="token tag">&lt;<span class="token attribute">span</span> <span class="token attribute">class</span>=<span class="token value">"fi fi-us"</span>&gt;</span><span class="token tag">&lt;/<span class="token attribute">span</span>&gt;</span> United States</pre>
             </div>
           </div>
-
-          <p>
-            For square format flags, add the
-            <code class="inline-code">fis</code> class:
-          </p>
-
-          <div class="code-block">
-            <div class="code-header">
-              <span class="code-label">Square 1:1 format</span>
-              <button class="code-copy-btn" id="copy-square-code">
-                <i class="bi bi-clipboard"></i> Copy
-              </button>
-            </div>
-            <div class="code-content">
-              <pre><span class="token tag">&lt;<span class="token attribute">span</span> <span class="token attribute">class</span>=<span class="token value">"fi fi-us fis"</span>&gt;</span><span class="token tag">&lt;/<span class="token attribute">span</span>&gt;</span> United States</pre>
-            </div>
-          </div>
         </div>
 
         <div class="modal-section">
-          <h4 class="modal-section-title">3. Tips</h4>
+          <h4 class="modal-section-title">3. 提示</h4>
           <ul>
-            <li>Click on any flag on this page to copy its HTML code</li>
-            <li>
-              For applying flags as backgrounds, use the
-              <code class="inline-code">fib</code> class
-            </li>
-            <li>
-              All flags are available in both 4:3 and 1:1 (square) formats
-            </li>
-            <li>
-              Use the built-in search and filter functionality to find specific
-              flags
-            </li>
+            <li>点击页面上任意旗帜即可复制其 HTML 代码</li>
+            <li>如果要将旗帜作为背景使用，请加上 <code class="inline-code">fib</code> 类</li>
+            <li>使用内置的搜索和筛选功能来查找特定旗帜</li>
           </ul>
         </div>
       </div>
@@ -901,29 +728,23 @@
     <footer class="footer">
       <div class="container">
         <p>
-          Released under the
-          <a href="https://github.com/lipis/flag-icons/blob/main/LICENSE"
-            >MIT License</a
-          >
-          by <a href="https://github.com/lipis">Panayiotis Lipiridis</a>
+          在
+          <a href="https://github.com/CB-X2-Jun/flag-icons/blob/main/LICENSE">MIT 许可证</a>
+          下发布，由 <a href="https://github.com/CB-X2-Jun">CB-X2-Jun</a> 维护
         </p>
       </div>
     </footer>
 
     <script>
-      // Utility functions
+      // 工具函数
       const loadJSON = (path) => {
         return fetch(path)
           .then((response) => response.json())
-          .catch((error) => console.error("Error loading JSON:", error));
+          .catch((error) => console.error("加载 JSON 失败:", error));
       };
 
-      // DOM elements
-      const isoFlagsGrid = document.getElementById("iso-flags");
-      const nonIsoFlagsGrid = document.getElementById("non-iso-flags");
+      // DOM 元素
       const searchInput = document.getElementById("search-flag");
-      const format4x3Btn = document.getElementById("format-4x3");
-      const format1x1Btn = document.getElementById("format-1x1");
       const copyTooltip = document.getElementById("copy-tooltip");
       const installTabs = document.querySelectorAll(".install-tab");
       const installCommand = document.getElementById("install-command");
@@ -936,8 +757,7 @@
       const filterOptions = document.querySelectorAll(".filter-option");
       const codeBlockCopyBtns = document.querySelectorAll(".code-copy-btn");
 
-      // State
-      let currentFormat = "4x3";
+      // 状态
       let allFlags = [];
       let tooltipTimeout;
       let currentFilter = "all";
@@ -945,32 +765,21 @@
         npm: "npm install flag-icons",
         yarn: "yarn add flag-icons",
       };
-      // Create flag card element
+
+      // 创建旗帜卡片
       const createFlagCard = (country) => {
         const card = document.createElement("div");
         card.classList.add("flag-card");
         card.dataset.code = country.code;
-        card.dataset.continent = country.continent || "non-iso";
+        card.dataset.category = country.category || "other";
 
         const imgContainer = document.createElement("div");
         imgContainer.classList.add("flag-img-container");
 
-        const imgSquareContainer = document.createElement("div");
-        imgSquareContainer.classList.add(
-          "flag-img-container",
-          "flag-img-square",
-        );
-        imgSquareContainer.style.display = "none";
-
         const img4x3 = document.createElement("img");
         img4x3.src = country.flag_4x3;
-        img4x3.alt = `Flag of ${country.name}`;
-        img4x3.loading = "lazy"; // Lazy loading for performance
-
-        const img1x1 = document.createElement("img");
-        img1x1.src = country.flag_1x1;
-        img1x1.alt = `Flag of ${country.name}`;
-        img1x1.loading = "lazy";
+        img4x3.alt = `${country.name} 旗帜`;
+        img4x3.loading = "lazy";
 
         const info = document.createElement("div");
         info.classList.add("flag-info");
@@ -985,46 +794,34 @@
         name.title = country.name;
 
         imgContainer.appendChild(img4x3);
-        imgSquareContainer.appendChild(img1x1);
         info.appendChild(code);
         info.appendChild(name);
 
         card.appendChild(imgContainer);
-        card.appendChild(imgSquareContainer);
         card.appendChild(info);
 
-        // Add click event to copy the flag code
+        // 点击复制
         card.addEventListener("click", () => {
-          const format = currentFormat === "4x3" ? "" : " fis";
-          const htmlCode = `<span class="fi fi-${country.code}${format}"></span>`;
-
+          const htmlCode = `<span class="fi fi-${country.code}"></span>`;
           navigator.clipboard
             .writeText(htmlCode)
             .then(() => showCopyTooltip())
-            .catch((err) => console.error("Could not copy text: ", err));
+            .catch((err) => console.error("复制失败: ", err));
         });
 
         return card;
       };
 
-      // Show tooltip when copying
+      // 显示提示框
       const showCopyTooltip = () => {
         clearTimeout(tooltipTimeout);
         copyTooltip.style.opacity = "1";
-
         tooltipTimeout = setTimeout(() => {
           copyTooltip.style.opacity = "0";
         }, 2000);
       };
 
-      const setupCopyButtons = () => {
-        document.getElementById("copy-standard-code").dataset.code =
-          `<span class="fi fi-us"></span> United States`;
-        document.getElementById("copy-square-code").dataset.code =
-          `<span class="fi fi-us fis"></span> United States`;
-      };
-
-      // Filter flags based on search input and continent
+      // 过滤旗帜
       const filterFlags = () => {
         const searchTerm = searchInput.value.toLowerCase();
 
@@ -1035,64 +832,14 @@
 
           const isFilterMatch =
             currentFilter === "all" ||
-            (currentFilter === "non-iso" && !flag.country.iso) ||
-            flag.country.continent === currentFilter;
+            flag.country.category === currentFilter;
 
           flag.element.style.display =
             isSearchMatch && isFilterMatch ? "" : "none";
         });
       };
 
-      // Switch between 4:3 and 1:1 formats
-      const switchFormat = (format) => {
-        currentFormat = format;
-
-        if (format === "4x3") {
-          format4x3Btn.classList.add("active");
-          format1x1Btn.classList.remove("active");
-
-          document
-            .querySelectorAll(".flag-img-container:not(.flag-img-square)")
-            .forEach((el) => {
-              el.style.display = "block";
-            });
-
-          document.querySelectorAll(".flag-img-square").forEach((el) => {
-            el.style.display = "none";
-          });
-
-          // Google Analytics tracking
-          if (typeof gtag !== "undefined") {
-            gtag("event", "switch", {
-              event_category: "flags",
-              event_label: "4x3",
-            });
-          }
-        } else {
-          format1x1Btn.classList.add("active");
-          format4x3Btn.classList.remove("active");
-
-          document
-            .querySelectorAll(".flag-img-container:not(.flag-img-square)")
-            .forEach((el) => {
-              el.style.display = "none";
-            });
-
-          document.querySelectorAll(".flag-img-square").forEach((el) => {
-            el.style.display = "block";
-          });
-
-          // Google Analytics tracking
-          if (typeof gtag !== "undefined") {
-            gtag("event", "switch", {
-              event_category: "flags",
-              event_label: "1x1",
-            });
-          }
-        }
-      };
-
-      // Switch installation command
+      // 切换安装命令
       const switchInstallCommand = (type) => {
         installCommand.textContent = installCommands[type];
         copyBtn.dataset.copy = installCommands[type];
@@ -1106,84 +853,78 @@
         });
       };
 
-      // Toggle filter dropdown
+      // 切换筛选下拉菜单
       const toggleFilterDropdown = () => {
         filterDropdown.classList.toggle("active");
       };
 
-      // Close filter dropdown when clicking outside
+      // 点击外部关闭下拉菜单
       document.addEventListener("click", (e) => {
         if (!filterDropdown.contains(e.target)) {
           filterDropdown.classList.remove("active");
         }
       });
 
-      // Copy code from code blocks
+      // 复制代码
       const copyCode = (btn) => {
         const code = btn.dataset.code;
         navigator.clipboard
           .writeText(code)
           .then(() => {
-            // Visual feedback
             const originalText = btn.innerHTML;
-            btn.innerHTML = '<i class="bi bi-check-lg"></i> Copied!';
-
+            btn.innerHTML = '<i class="bi bi-check-lg"></i> 已复制!';
             setTimeout(() => {
               btn.innerHTML = originalText;
             }, 2000);
           })
-          .catch((err) => console.error("Could not copy text: ", err));
+          .catch((err) => console.error("复制失败: ", err));
       };
 
-      // Initialize the application
+      // 初始化
       const init = async () => {
         try {
           const countries = await loadJSON("country.json");
-
-          // Sort countries by name
           countries.sort((a, b) => a.name.localeCompare(b.name));
 
-          // Create flag cards
-          countries.forEach((country) => {
-            const card = createFlagCard(country);
+          const categories = ['iso', 'region', 'disputed', 'organization', 'other'];
 
-            if (country.iso) {
-              isoFlagsGrid.appendChild(card);
-            } else {
-              nonIsoFlagsGrid.appendChild(card);
+          categories.forEach(cat => {
+            const grid = document.getElementById(`${cat}-flags`);
+            const title = document.getElementById(`title-${cat}`);
+            if (!grid) return;
+
+            const filtered = countries.filter(c => (c.category || 'other') === cat);
+
+            if (filtered.length === 0) {
+              if (title) title.style.display = 'none';
+              grid.style.display = 'none';
+              return;
             }
 
-            allFlags.push({
-              country,
-              element: card,
+            filtered.forEach(country => {
+              const card = createFlagCard(country);
+              grid.appendChild(card);
+              allFlags.push({ country, element: card });
             });
           });
 
-          setupCopyButtons();
-
-          // Set up event listeners
+          // 事件监听
           searchInput.addEventListener("input", filterFlags);
 
-          format4x3Btn.addEventListener("click", () => switchFormat("4x3"));
-          format1x1Btn.addEventListener("click", () => switchFormat("1x1"));
-
-          // Installation tab switching
           installTabs.forEach((tab) => {
             tab.addEventListener("click", () => {
               switchInstallCommand(tab.dataset.tab);
             });
           });
 
-          // Copy npm/yarn command
           copyBtn.addEventListener("click", (e) => {
             const textToCopy = e.currentTarget.dataset.copy;
             navigator.clipboard
               .writeText(textToCopy)
               .then(() => showCopyTooltip())
-              .catch((err) => console.error("Could not copy text: ", err));
+              .catch((err) => console.error("复制失败: ", err));
           });
 
-          // Usage modal
           usageBtn.addEventListener("click", () => {
             usageModal.classList.add("active");
           });
@@ -1198,7 +939,6 @@
             }
           });
 
-          // Filter dropdown
           filterBtn.addEventListener("click", toggleFilterDropdown);
 
           filterOptions.forEach((option) => {
@@ -1219,16 +959,15 @@
             });
           });
 
-          // Code block copy buttons
           codeBlockCopyBtns.forEach((btn) => {
             btn.addEventListener("click", () => copyCode(btn));
           });
+
         } catch (error) {
-          console.error("Error initializing the application:", error);
+          console.error("初始化应用失败:", error);
         }
       };
 
-      // Start the application when the DOM is ready
       document.addEventListener("DOMContentLoaded", init);
     </script>
   </body>

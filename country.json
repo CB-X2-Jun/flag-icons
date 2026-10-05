@@ -1,2407 +1,1658 @@
 [
   {
-    "capital": "Kabul",
     "code": "af",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/af.svg",
     "flag_4x3": "flags/4x3/af.svg",
-    "iso": true,
-    "name": "Afghanistan"
+    "category": "iso",
+    "name": "阿富汗"
   },
   {
-    "capital": "Mariehamn",
     "code": "ax",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ax.svg",
     "flag_4x3": "flags/4x3/ax.svg",
-    "iso": true,
-    "name": "Aland Islands"
+    "category": "iso",
+    "name": "奥兰群岛"
   },
   {
-    "capital": "Tirana",
     "code": "al",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/al.svg",
     "flag_4x3": "flags/4x3/al.svg",
-    "iso": true,
-    "name": "Albania"
+    "category": "iso",
+    "name": "阿尔巴尼亚"
   },
   {
-    "capital": "Algiers",
     "code": "dz",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/dz.svg",
     "flag_4x3": "flags/4x3/dz.svg",
-    "iso": true,
-    "name": "Algeria"
+    "category": "iso",
+    "name": "阿尔及利亚"
   },
   {
-    "capital": "Pago Pago",
     "code": "as",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/as.svg",
     "flag_4x3": "flags/4x3/as.svg",
-    "iso": true,
-    "name": "American Samoa"
+    "category": "iso",
+    "name": "美属萨摩亚"
   },
   {
-    "capital": "Andorra la Vella",
     "code": "ad",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ad.svg",
     "flag_4x3": "flags/4x3/ad.svg",
-    "iso": true,
-    "name": "Andorra"
+    "category": "iso",
+    "name": "安道尔"
   },
   {
-    "capital": "Luanda",
     "code": "ao",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ao.svg",
     "flag_4x3": "flags/4x3/ao.svg",
-    "iso": true,
-    "name": "Angola"
+    "category": "iso",
+    "name": "安哥拉"
   },
   {
-    "capital": "The Valley",
     "code": "ai",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ai.svg",
     "flag_4x3": "flags/4x3/ai.svg",
-    "iso": true,
-    "name": "Anguilla"
+    "category": "iso",
+    "name": "安圭拉"
   },
   {
     "code": "aq",
-    "flag_1x1": "flags/1x1/aq.svg",
     "flag_4x3": "flags/4x3/aq.svg",
-    "iso": true,
-    "name": "Antarctica"
+    "category": "iso",
+    "name": "南极洲"
   },
   {
-    "capital": "St. John's",
     "code": "ag",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ag.svg",
     "flag_4x3": "flags/4x3/ag.svg",
-    "iso": true,
-    "name": "Antigua and Barbuda"
+    "category": "iso",
+    "name": "安提瓜和巴布达"
   },
   {
-    "capital": "Buenos Aires",
     "code": "ar",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/ar.svg",
     "flag_4x3": "flags/4x3/ar.svg",
-    "iso": true,
-    "name": "Argentina"
+    "category": "iso",
+    "name": "阿根廷"
   },
   {
-    "capital": "Yerevan",
     "code": "am",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/am.svg",
     "flag_4x3": "flags/4x3/am.svg",
-    "iso": true,
-    "name": "Armenia"
+    "category": "iso",
+    "name": "亚美尼亚"
   },
   {
-    "capital": "Oranjestad",
     "code": "aw",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/aw.svg",
     "flag_4x3": "flags/4x3/aw.svg",
-    "iso": true,
-    "name": "Aruba"
+    "category": "iso",
+    "name": "阿鲁巴"
   },
   {
-    "capital": "Georgetown",
     "code": "sh-ac",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sh-ac.svg",
     "flag_4x3": "flags/4x3/sh-ac.svg",
-    "iso": false,
-    "name": "Ascension Island"
+    "category": "region",
+    "name": "阿森松岛"
   },
   {
     "code": "asean",
-    "flag_1x1": "flags/1x1/asean.svg",
     "flag_4x3": "flags/4x3/asean.svg",
-    "iso": false,
-    "name": "Association of Southeast Asian Nations"
+    "category": "organization",
+    "name": "东南亚国家联盟"
   },
   {
-    "capital": "Canberra",
     "code": "au",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/au.svg",
     "flag_4x3": "flags/4x3/au.svg",
-    "iso": true,
-    "name": "Australia"
+    "category": "iso",
+    "name": "澳大利亚"
   },
   {
-    "capital": "Vienna",
     "code": "at",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/at.svg",
     "flag_4x3": "flags/4x3/at.svg",
-    "iso": true,
-    "name": "Austria"
+    "category": "iso",
+    "name": "奥地利"
   },
   {
-    "capital": "Baku",
     "code": "az",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/az.svg",
     "flag_4x3": "flags/4x3/az.svg",
-    "iso": true,
-    "name": "Azerbaijan"
+    "category": "iso",
+    "name": "阿塞拜疆"
   },
   {
-    "capital": "Nassau",
     "code": "bs",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/bs.svg",
     "flag_4x3": "flags/4x3/bs.svg",
-    "iso": true,
-    "name": "Bahamas"
+    "category": "iso",
+    "name": "巴哈马"
   },
   {
-    "capital": "Manama",
     "code": "bh",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/bh.svg",
     "flag_4x3": "flags/4x3/bh.svg",
-    "iso": true,
-    "name": "Bahrain"
+    "category": "iso",
+    "name": "巴林"
   },
   {
-    "capital": "Dhaka",
     "code": "bd",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/bd.svg",
     "flag_4x3": "flags/4x3/bd.svg",
-    "iso": true,
-    "name": "Bangladesh"
+    "category": "iso",
+    "name": "孟加拉国"
   },
   {
-    "capital": "Bridgetown",
     "code": "bb",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/bb.svg",
     "flag_4x3": "flags/4x3/bb.svg",
-    "iso": true,
-    "name": "Barbados"
+    "category": "iso",
+    "name": "巴巴多斯"
   },
   {
     "code": "es-pv",
-    "flag_1x1": "flags/1x1/es-pv.svg",
     "flag_4x3": "flags/4x3/es-pv.svg",
-    "iso": false,
-    "name": "Basque Country"
+    "category": "region",
+    "name": "巴斯克地区"
   },
   {
-    "capital": "Minsk",
     "code": "by",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/by.svg",
     "flag_4x3": "flags/4x3/by.svg",
-    "iso": true,
-    "name": "Belarus"
+    "category": "iso",
+    "name": "白俄罗斯"
   },
   {
-    "capital": "Brussels",
     "code": "be",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/be.svg",
     "flag_4x3": "flags/4x3/be.svg",
-    "iso": true,
-    "name": "Belgium"
+    "category": "iso",
+    "name": "比利时"
   },
   {
-    "capital": "Belmopan",
     "code": "bz",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/bz.svg",
     "flag_4x3": "flags/4x3/bz.svg",
-    "iso": true,
-    "name": "Belize"
+    "category": "iso",
+    "name": "伯利兹"
   },
   {
-    "capital": "Porto-Novo",
     "code": "bj",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/bj.svg",
     "flag_4x3": "flags/4x3/bj.svg",
-    "iso": true,
-    "name": "Benin"
+    "category": "iso",
+    "name": "贝宁"
   },
   {
-    "capital": "Hamilton",
     "code": "bm",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/bm.svg",
     "flag_4x3": "flags/4x3/bm.svg",
-    "iso": true,
-    "name": "Bermuda"
+    "category": "iso",
+    "name": "百慕大"
   },
   {
-    "capital": "Thimphu",
     "code": "bt",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/bt.svg",
     "flag_4x3": "flags/4x3/bt.svg",
-    "iso": true,
-    "name": "Bhutan"
+    "category": "iso",
+    "name": "不丹"
   },
   {
-    "capital": "Sucre",
     "code": "bo",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/bo.svg",
     "flag_4x3": "flags/4x3/bo.svg",
-    "iso": true,
-    "name": "Bolivia"
+    "category": "iso",
+    "name": "玻利维亚"
   },
   {
-    "capital": "Kralendijk",
     "code": "bq",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/bq.svg",
     "flag_4x3": "flags/4x3/bq.svg",
-    "iso": true,
-    "name": "Bonaire, Sint Eustatius and Saba"
+    "category": "iso",
+    "name": "博奈尔、圣尤斯特歇斯和萨巴"
   },
   {
-    "capital": "Sarajevo",
     "code": "ba",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ba.svg",
     "flag_4x3": "flags/4x3/ba.svg",
-    "iso": true,
-    "name": "Bosnia and Herzegovina"
+    "category": "iso",
+    "name": "波斯尼亚和黑塞哥维那"
   },
   {
-    "capital": "Gaborone",
     "code": "bw",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/bw.svg",
     "flag_4x3": "flags/4x3/bw.svg",
-    "iso": true,
-    "name": "Botswana"
+    "category": "iso",
+    "name": "博茨瓦纳"
   },
   {
     "code": "bv",
-    "flag_1x1": "flags/1x1/bv.svg",
     "flag_4x3": "flags/4x3/bv.svg",
-    "iso": true,
-    "name": "Bouvet Island"
+    "category": "iso",
+    "name": "布韦岛"
   },
   {
-    "capital": "Brasília",
     "code": "br",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/br.svg",
     "flag_4x3": "flags/4x3/br.svg",
-    "iso": true,
-    "name": "Brazil"
+    "category": "iso",
+    "name": "巴西"
   },
   {
-    "capital": "Diego Garcia",
     "code": "io",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/io.svg",
     "flag_4x3": "flags/4x3/io.svg",
-    "iso": true,
-    "name": "British Indian Ocean Territory"
+    "category": "iso",
+    "name": "英属印度洋领地"
   },
   {
-    "capital": "Bandar Seri Begawan",
     "code": "bn",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/bn.svg",
     "flag_4x3": "flags/4x3/bn.svg",
-    "iso": true,
-    "name": "Brunei Darussalam"
+    "category": "iso",
+    "name": "文莱"
   },
   {
-    "capital": "Sofia",
     "code": "bg",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/bg.svg",
     "flag_4x3": "flags/4x3/bg.svg",
-    "iso": true,
-    "name": "Bulgaria"
+    "category": "iso",
+    "name": "保加利亚"
   },
   {
-    "capital": "Ouagadougou",
     "code": "bf",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/bf.svg",
     "flag_4x3": "flags/4x3/bf.svg",
-    "iso": true,
-    "name": "Burkina Faso"
+    "category": "iso",
+    "name": "布基纳法索"
   },
   {
-    "capital": "Bujumbura",
     "code": "bi",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/bi.svg",
     "flag_4x3": "flags/4x3/bi.svg",
-    "iso": true,
-    "name": "Burundi"
+    "category": "iso",
+    "name": "布隆迪"
   },
   {
-    "capital": "Praia",
     "code": "cv",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/cv.svg",
     "flag_4x3": "flags/4x3/cv.svg",
-    "iso": true,
-    "name": "Cabo Verde"
+    "category": "iso",
+    "name": "佛得角"
   },
   {
-    "capital": "Phnom Penh",
     "code": "kh",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/kh.svg",
     "flag_4x3": "flags/4x3/kh.svg",
-    "iso": true,
-    "name": "Cambodia"
+    "category": "iso",
+    "name": "柬埔寨"
   },
   {
-    "capital": "Yaoundé",
     "code": "cm",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/cm.svg",
     "flag_4x3": "flags/4x3/cm.svg",
-    "iso": true,
-    "name": "Cameroon"
+    "category": "iso",
+    "name": "喀麦隆"
   },
   {
-    "capital": "Ottawa",
     "code": "ca",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ca.svg",
     "flag_4x3": "flags/4x3/ca.svg",
-    "iso": true,
-    "name": "Canada"
+    "category": "iso",
+    "name": "加拿大"
   },
   {
     "code": "ic",
-    "flag_1x1": "flags/1x1/ic.svg",
     "flag_4x3": "flags/4x3/ic.svg",
-    "iso": false,
-    "name": "Canary Islands"
+    "category": "region",
+    "name": "加那利群岛"
   },
   {
     "code": "es-ct",
-    "flag_1x1": "flags/1x1/es-ct.svg",
     "flag_4x3": "flags/4x3/es-ct.svg",
-    "iso": false,
-    "name": "Catalonia"
+    "category": "region",
+    "name": "加泰罗尼亚"
   },
   {
-    "capital": "George Town",
     "code": "ky",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ky.svg",
     "flag_4x3": "flags/4x3/ky.svg",
-    "iso": true,
-    "name": "Cayman Islands"
+    "category": "iso",
+    "name": "开曼群岛"
   },
   {
-    "capital": "Bangui",
     "code": "cf",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/cf.svg",
     "flag_4x3": "flags/4x3/cf.svg",
-    "iso": true,
-    "name": "Central African Republic"
+    "category": "iso",
+    "name": "中非共和国"
   },
   {
     "code": "cefta",
-    "flag_1x1": "flags/1x1/cefta.svg",
     "flag_4x3": "flags/4x3/cefta.svg",
-    "iso": false,
-    "name": "Central European Free Trade Agreement"
+    "category": "organization",
+    "name": "中欧自由贸易协定"
   },
   {
-    "capital": "N'Djamena",
     "code": "td",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/td.svg",
     "flag_4x3": "flags/4x3/td.svg",
-    "iso": true,
-    "name": "Chad"
+    "category": "iso",
+    "name": "乍得"
   },
   {
-    "capital": "Santiago",
     "code": "cl",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/cl.svg",
     "flag_4x3": "flags/4x3/cl.svg",
-    "iso": true,
-    "name": "Chile"
+    "category": "iso",
+    "name": "智利"
   },
   {
-    "capital": "Beijing",
     "code": "cn",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/cn.svg",
     "flag_4x3": "flags/4x3/cn.svg",
-    "iso": true,
-    "name": "China"
+    "category": "iso",
+    "name": "中国"
   },
   {
-    "capital": "Flying Fish Cove",
     "code": "cx",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/cx.svg",
     "flag_4x3": "flags/4x3/cx.svg",
-    "iso": true,
-    "name": "Christmas Island"
+    "category": "iso",
+    "name": "圣诞岛"
   },
   {
     "code": "cp",
-    "flag_1x1": "flags/1x1/cp.svg",
     "flag_4x3": "flags/4x3/cp.svg",
-    "iso": false,
-    "name": "Clipperton Island"
+    "category": "region",
+    "name": "克利珀顿岛"
   },
   {
-    "capital": "West Island",
     "code": "cc",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/cc.svg",
     "flag_4x3": "flags/4x3/cc.svg",
-    "iso": true,
-    "name": "Cocos (Keeling) Islands"
+    "category": "iso",
+    "name": "科科斯（基林）群岛"
   },
   {
-    "capital": "Bogotá",
     "code": "co",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/co.svg",
     "flag_4x3": "flags/4x3/co.svg",
-    "iso": true,
-    "name": "Colombia"
+    "category": "iso",
+    "name": "哥伦比亚"
   },
   {
-    "capital": "Moroni",
     "code": "km",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/km.svg",
     "flag_4x3": "flags/4x3/km.svg",
-    "iso": true,
-    "name": "Comoros"
+    "category": "iso",
+    "name": "科摩罗"
   },
   {
-    "capital": "Avarua",
     "code": "ck",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/ck.svg",
     "flag_4x3": "flags/4x3/ck.svg",
-    "iso": true,
-    "name": "Cook Islands"
+    "category": "iso",
+    "name": "库克群岛"
   },
   {
-    "capital": "San José",
     "code": "cr",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/cr.svg",
     "flag_4x3": "flags/4x3/cr.svg",
-    "iso": true,
-    "name": "Costa Rica"
+    "category": "iso",
+    "name": "哥斯达黎加"
   },
   {
-    "capital": "Zagreb",
     "code": "hr",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/hr.svg",
     "flag_4x3": "flags/4x3/hr.svg",
-    "iso": true,
-    "name": "Croatia"
+    "category": "iso",
+    "name": "克罗地亚"
   },
   {
-    "capital": "Havana",
     "code": "cu",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/cu.svg",
     "flag_4x3": "flags/4x3/cu.svg",
-    "iso": true,
-    "name": "Cuba"
+    "category": "iso",
+    "name": "古巴"
   },
   {
-    "capital": "Willemstad",
     "code": "cw",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/cw.svg",
     "flag_4x3": "flags/4x3/cw.svg",
-    "iso": true,
-    "name": "Curaçao"
+    "category": "iso",
+    "name": "库拉索"
   },
   {
-    "capital": "Nicosia",
     "code": "cy",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/cy.svg",
     "flag_4x3": "flags/4x3/cy.svg",
-    "iso": true,
-    "name": "Cyprus"
+    "category": "iso",
+    "name": "塞浦路斯"
   },
   {
-    "capital": "Prague",
     "code": "cz",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/cz.svg",
     "flag_4x3": "flags/4x3/cz.svg",
-    "iso": true,
-    "name": "Czech Republic"
+    "category": "iso",
+    "name": "捷克共和国"
   },
   {
-    "capital": "Yamoussoukro",
     "code": "ci",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ci.svg",
     "flag_4x3": "flags/4x3/ci.svg",
-    "iso": true,
-    "name": "Côte d'Ivoire"
+    "category": "iso",
+    "name": "科特迪瓦"
   },
   {
-    "capital": "Kinshasa",
     "code": "cd",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/cd.svg",
     "flag_4x3": "flags/4x3/cd.svg",
-    "iso": true,
-    "name": "Democratic Republic of the Congo"
+    "category": "iso",
+    "name": "刚果民主共和国"
   },
   {
-    "capital": "Copenhagen",
     "code": "dk",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/dk.svg",
     "flag_4x3": "flags/4x3/dk.svg",
-    "iso": true,
-    "name": "Denmark"
+    "category": "iso",
+    "name": "丹麦"
   },
   {
     "code": "dg",
-    "flag_1x1": "flags/1x1/dg.svg",
     "flag_4x3": "flags/4x3/dg.svg",
-    "iso": false,
-    "name": "Diego Garcia"
+    "category": "region",
+    "name": "迪戈加西亚岛"
   },
   {
-    "capital": "Djibouti",
     "code": "dj",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/dj.svg",
     "flag_4x3": "flags/4x3/dj.svg",
-    "iso": true,
-    "name": "Djibouti"
+    "category": "iso",
+    "name": "吉布提"
   },
   {
-    "capital": "Roseau",
     "code": "dm",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/dm.svg",
     "flag_4x3": "flags/4x3/dm.svg",
-    "iso": true,
-    "name": "Dominica"
+    "category": "iso",
+    "name": "多米尼克"
   },
   {
-    "capital": "Santo Domingo",
     "code": "do",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/do.svg",
     "flag_4x3": "flags/4x3/do.svg",
-    "iso": true,
-    "name": "Dominican Republic"
+    "category": "iso",
+    "name": "多米尼加共和国"
   },
   {
     "code": "eac",
-    "flag_1x1": "flags/1x1/eac.svg",
     "flag_4x3": "flags/4x3/eac.svg",
-    "iso": false,
-    "name": "East African Community"
+    "category": "organization",
+    "name": "东非共同体"
   },
   {
-    "capital": "Quito",
     "code": "ec",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/ec.svg",
     "flag_4x3": "flags/4x3/ec.svg",
-    "iso": true,
-    "name": "Ecuador"
+    "category": "iso",
+    "name": "厄瓜多尔"
   },
   {
-    "capital": "Cairo",
     "code": "eg",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/eg.svg",
     "flag_4x3": "flags/4x3/eg.svg",
-    "iso": true,
-    "name": "Egypt"
+    "category": "iso",
+    "name": "埃及"
   },
   {
-    "capital": "San Salvador",
     "code": "sv",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/sv.svg",
     "flag_4x3": "flags/4x3/sv.svg",
-    "iso": true,
-    "name": "El Salvador"
+    "category": "iso",
+    "name": "萨尔瓦多"
   },
   {
-    "capital": "London",
     "code": "gb-eng",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gb-eng.svg",
     "flag_4x3": "flags/4x3/gb-eng.svg",
-    "iso": false,
-    "name": "England"
+    "category": "region",
+    "name": "英格兰"
   },
   {
-    "capital": "Malabo",
     "code": "gq",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/gq.svg",
     "flag_4x3": "flags/4x3/gq.svg",
-    "iso": true,
-    "name": "Equatorial Guinea"
+    "category": "iso",
+    "name": "赤道几内亚"
   },
   {
-    "capital": "Asmara",
     "code": "er",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/er.svg",
     "flag_4x3": "flags/4x3/er.svg",
-    "iso": true,
-    "name": "Eritrea"
+    "category": "iso",
+    "name": "厄立特里亚"
   },
   {
-    "capital": "Tallinn",
     "code": "ee",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ee.svg",
     "flag_4x3": "flags/4x3/ee.svg",
-    "iso": true,
-    "name": "Estonia"
+    "category": "iso",
+    "name": "爱沙尼亚"
   },
   {
-    "capital": "Lobamba, Mbabane",
     "code": "sz",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sz.svg",
     "flag_4x3": "flags/4x3/sz.svg",
-    "iso": true,
-    "name": "Eswatini"
+    "category": "iso",
+    "name": "斯威士兰"
   },
   {
-    "capital": "Addis Ababa",
     "code": "et",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/et.svg",
     "flag_4x3": "flags/4x3/et.svg",
-    "iso": true,
-    "name": "Ethiopia"
+    "category": "iso",
+    "name": "埃塞俄比亚"
   },
   {
     "code": "eu",
-    "flag_1x1": "flags/1x1/eu.svg",
     "flag_4x3": "flags/4x3/eu.svg",
-    "iso": false,
-    "name": "Europe"
+    "category": "organization",
+    "name": "欧洲"
   },
   {
-    "capital": "Stanley",
     "code": "fk",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/fk.svg",
     "flag_4x3": "flags/4x3/fk.svg",
-    "iso": true,
-    "name": "Falkland Islands"
+    "category": "iso",
+    "name": "福克兰群岛"
   },
   {
-    "capital": "Tórshavn",
     "code": "fo",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/fo.svg",
     "flag_4x3": "flags/4x3/fo.svg",
-    "iso": true,
-    "name": "Faroe Islands"
+    "category": "iso",
+    "name": "法罗群岛"
   },
   {
-    "capital": "Palikir",
     "code": "fm",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/fm.svg",
     "flag_4x3": "flags/4x3/fm.svg",
-    "iso": true,
-    "name": "Federated States of Micronesia"
+    "category": "iso",
+    "name": "密克罗尼西亚联邦"
   },
   {
-    "capital": "Suva",
     "code": "fj",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/fj.svg",
     "flag_4x3": "flags/4x3/fj.svg",
-    "iso": true,
-    "name": "Fiji"
+    "category": "iso",
+    "name": "斐济"
   },
   {
-    "capital": "Helsinki",
     "code": "fi",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/fi.svg",
     "flag_4x3": "flags/4x3/fi.svg",
-    "iso": true,
-    "name": "Finland"
+    "category": "iso",
+    "name": "芬兰"
   },
   {
-    "capital": "Paris",
     "code": "fr",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/fr.svg",
     "flag_4x3": "flags/4x3/fr.svg",
-    "iso": true,
-    "name": "France"
+    "category": "iso",
+    "name": "法国"
   },
   {
-    "capital": "Cayenne",
     "code": "gf",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/gf.svg",
     "flag_4x3": "flags/4x3/gf.svg",
-    "iso": true,
-    "name": "French Guiana"
+    "category": "iso",
+    "name": "法属圭亚那"
   },
   {
-    "capital": "Papeete",
     "code": "pf",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/pf.svg",
     "flag_4x3": "flags/4x3/pf.svg",
-    "iso": true,
-    "name": "French Polynesia"
+    "category": "iso",
+    "name": "法属波利尼西亚"
   },
   {
-    "capital": "Saint-Pierre, Réunion",
     "code": "tf",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/tf.svg",
     "flag_4x3": "flags/4x3/tf.svg",
-    "iso": true,
-    "name": "French Southern Territories"
+    "category": "iso",
+    "name": "法属南部领地"
   },
   {
-    "capital": "Libreville",
     "code": "ga",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ga.svg",
     "flag_4x3": "flags/4x3/ga.svg",
-    "iso": true,
-    "name": "Gabon"
+    "category": "iso",
+    "name": "加蓬"
   },
   {
     "code": "es-ga",
-    "flag_1x1": "flags/1x1/es-ga.svg",
     "flag_4x3": "flags/4x3/es-ga.svg",
-    "iso": false,
-    "name": "Galicia"
+    "category": "region",
+    "name": "加利西亚"
   },
   {
-    "capital": "Banjul",
     "code": "gm",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/gm.svg",
     "flag_4x3": "flags/4x3/gm.svg",
-    "iso": true,
-    "name": "Gambia"
+    "category": "iso",
+    "name": "冈比亚"
   },
   {
-    "capital": "Tbilisi",
     "code": "ge",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/ge.svg",
     "flag_4x3": "flags/4x3/ge.svg",
-    "iso": true,
-    "name": "Georgia"
+    "category": "iso",
+    "name": "格鲁吉亚"
   },
   {
-    "capital": "Berlin",
     "code": "de",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/de.svg",
     "flag_4x3": "flags/4x3/de.svg",
-    "iso": true,
-    "name": "Germany"
+    "category": "iso",
+    "name": "德国"
   },
   {
-    "capital": "Accra",
     "code": "gh",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/gh.svg",
     "flag_4x3": "flags/4x3/gh.svg",
-    "iso": true,
-    "name": "Ghana"
+    "category": "iso",
+    "name": "加纳"
   },
   {
-    "capital": "Gibraltar",
     "code": "gi",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gi.svg",
     "flag_4x3": "flags/4x3/gi.svg",
-    "iso": true,
-    "name": "Gibraltar"
+    "category": "iso",
+    "name": "直布罗陀"
   },
   {
-    "capital": "Athens",
     "code": "gr",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gr.svg",
     "flag_4x3": "flags/4x3/gr.svg",
-    "iso": true,
-    "name": "Greece"
+    "category": "iso",
+    "name": "希腊"
   },
   {
-    "capital": "Nuuk",
     "code": "gl",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/gl.svg",
     "flag_4x3": "flags/4x3/gl.svg",
-    "iso": true,
-    "name": "Greenland"
+    "category": "iso",
+    "name": "格陵兰"
   },
   {
-    "capital": "St. George's",
     "code": "gd",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/gd.svg",
     "flag_4x3": "flags/4x3/gd.svg",
-    "iso": true,
-    "name": "Grenada"
+    "category": "iso",
+    "name": "格林纳达"
   },
   {
-    "capital": "Basse-Terre",
     "code": "gp",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/gp.svg",
     "flag_4x3": "flags/4x3/gp.svg",
-    "iso": true,
-    "name": "Guadeloupe"
+    "category": "iso",
+    "name": "瓜德罗普"
   },
   {
-    "capital": "Hagåtña",
     "code": "gu",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/gu.svg",
     "flag_4x3": "flags/4x3/gu.svg",
-    "iso": true,
-    "name": "Guam"
+    "category": "iso",
+    "name": "关岛"
   },
   {
-    "capital": "Guatemala City",
     "code": "gt",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/gt.svg",
     "flag_4x3": "flags/4x3/gt.svg",
-    "iso": true,
-    "name": "Guatemala"
+    "category": "iso",
+    "name": "危地马拉"
   },
   {
-    "capital": "Saint Peter Port",
     "code": "gg",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gg.svg",
     "flag_4x3": "flags/4x3/gg.svg",
-    "iso": true,
-    "name": "Guernsey"
+    "category": "iso",
+    "name": "根西岛"
   },
   {
-    "capital": "Conakry",
     "code": "gn",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/gn.svg",
     "flag_4x3": "flags/4x3/gn.svg",
-    "iso": true,
-    "name": "Guinea"
+    "category": "iso",
+    "name": "几内亚"
   },
   {
-    "capital": "Bissau",
     "code": "gw",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/gw.svg",
     "flag_4x3": "flags/4x3/gw.svg",
-    "iso": true,
-    "name": "Guinea-Bissau"
+    "category": "iso",
+    "name": "几内亚比绍"
   },
   {
-    "capital": "Georgetown",
     "code": "gy",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/gy.svg",
     "flag_4x3": "flags/4x3/gy.svg",
-    "iso": true,
-    "name": "Guyana"
+    "category": "iso",
+    "name": "圭亚那"
   },
   {
-    "capital": "Port-au-Prince",
     "code": "ht",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ht.svg",
     "flag_4x3": "flags/4x3/ht.svg",
-    "iso": true,
-    "name": "Haiti"
+    "category": "iso",
+    "name": "海地"
   },
   {
     "code": "hm",
-    "flag_1x1": "flags/1x1/hm.svg",
     "flag_4x3": "flags/4x3/hm.svg",
-    "iso": true,
-    "name": "Heard Island and McDonald Islands"
+    "category": "iso",
+    "name": "赫德岛和麦克唐纳群岛"
   },
   {
-    "capital": "Vatican City",
     "code": "va",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/va.svg",
     "flag_4x3": "flags/4x3/va.svg",
-    "iso": true,
-    "name": "Holy See"
+    "category": "iso",
+    "name": "教廷"
   },
   {
-    "capital": "Tegucigalpa",
     "code": "hn",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/hn.svg",
     "flag_4x3": "flags/4x3/hn.svg",
-    "iso": true,
-    "name": "Honduras"
+    "category": "iso",
+    "name": "洪都拉斯"
   },
   {
-    "capital": "Hong Kong",
     "code": "hk",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/hk.svg",
     "flag_4x3": "flags/4x3/hk.svg",
-    "iso": true,
-    "name": "Hong Kong"
+    "category": "iso",
+    "name": "香港"
   },
   {
-    "capital": "Budapest",
     "code": "hu",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/hu.svg",
     "flag_4x3": "flags/4x3/hu.svg",
-    "iso": true,
-    "name": "Hungary"
+    "category": "iso",
+    "name": "匈牙利"
   },
   {
-    "capital": "Reykjavik",
     "code": "is",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/is.svg",
     "flag_4x3": "flags/4x3/is.svg",
-    "iso": true,
-    "name": "Iceland"
+    "category": "iso",
+    "name": "冰岛"
   },
   {
-    "capital": "New Delhi",
     "code": "in",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/in.svg",
     "flag_4x3": "flags/4x3/in.svg",
-    "iso": true,
-    "name": "India"
+    "category": "iso",
+    "name": "印度"
   },
   {
-    "capital": "Jakarta",
     "code": "id",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/id.svg",
     "flag_4x3": "flags/4x3/id.svg",
-    "iso": true,
-    "name": "Indonesia"
+    "category": "iso",
+    "name": "印度尼西亚"
   },
   {
-    "capital": "Tehran",
     "code": "ir",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/ir.svg",
     "flag_4x3": "flags/4x3/ir.svg",
-    "iso": true,
-    "name": "Iran"
+    "category": "iso",
+    "name": "伊朗"
   },
   {
-    "capital": "Baghdad",
     "code": "iq",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/iq.svg",
     "flag_4x3": "flags/4x3/iq.svg",
-    "iso": true,
-    "name": "Iraq"
+    "category": "iso",
+    "name": "伊拉克"
   },
   {
-    "capital": "Dublin",
     "code": "ie",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ie.svg",
     "flag_4x3": "flags/4x3/ie.svg",
-    "iso": true,
-    "name": "Ireland"
+    "category": "iso",
+    "name": "爱尔兰"
   },
   {
-    "capital": "Douglas",
     "code": "im",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/im.svg",
     "flag_4x3": "flags/4x3/im.svg",
-    "iso": true,
-    "name": "Isle of Man"
+    "category": "iso",
+    "name": "马恩岛"
   },
   {
-    "capital": "Jerusalem",
     "code": "il",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/il.svg",
     "flag_4x3": "flags/4x3/il.svg",
-    "iso": true,
-    "name": "Israel"
+    "category": "iso",
+    "name": "以色列"
   },
   {
-    "capital": "Rome",
     "code": "it",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/it.svg",
     "flag_4x3": "flags/4x3/it.svg",
-    "iso": true,
-    "name": "Italy"
+    "category": "iso",
+    "name": "意大利"
   },
   {
-    "capital": "Kingston",
     "code": "jm",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/jm.svg",
     "flag_4x3": "flags/4x3/jm.svg",
-    "iso": true,
-    "name": "Jamaica"
+    "category": "iso",
+    "name": "牙买加"
   },
   {
-    "capital": "Tokyo",
     "code": "jp",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/jp.svg",
     "flag_4x3": "flags/4x3/jp.svg",
-    "iso": true,
-    "name": "Japan"
+    "category": "iso",
+    "name": "日本"
   },
   {
-    "capital": "Saint Helier",
     "code": "je",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/je.svg",
     "flag_4x3": "flags/4x3/je.svg",
-    "iso": true,
-    "name": "Jersey"
+    "category": "iso",
+    "name": "泽西岛"
   },
   {
-    "capital": "Amman",
     "code": "jo",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/jo.svg",
     "flag_4x3": "flags/4x3/jo.svg",
-    "iso": true,
-    "name": "Jordan"
+    "category": "iso",
+    "name": "约旦"
   },
   {
-    "capital": "Astana",
     "code": "kz",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/kz.svg",
     "flag_4x3": "flags/4x3/kz.svg",
-    "iso": true,
-    "name": "Kazakhstan"
+    "category": "iso",
+    "name": "哈萨克斯坦"
   },
   {
-    "capital": "Nairobi",
     "code": "ke",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ke.svg",
     "flag_4x3": "flags/4x3/ke.svg",
-    "iso": true,
-    "name": "Kenya"
+    "category": "iso",
+    "name": "肯尼亚"
   },
   {
-    "capital": "South Tarawa",
     "code": "ki",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/ki.svg",
     "flag_4x3": "flags/4x3/ki.svg",
-    "iso": true,
-    "name": "Kiribati"
+    "category": "iso",
+    "name": "基里巴斯"
   },
   {
-    "capital": "Pristina",
     "code": "xk",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/xk.svg",
     "flag_4x3": "flags/4x3/xk.svg",
-    "iso": false,
-    "name": "Kosovo"
+    "category": "disputed",
+    "name": "科索沃"
   },
   {
-    "capital": "Kuwait City",
     "code": "kw",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/kw.svg",
     "flag_4x3": "flags/4x3/kw.svg",
-    "iso": true,
-    "name": "Kuwait"
+    "category": "iso",
+    "name": "科威特"
   },
   {
-    "capital": "Bishkek",
     "code": "kg",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/kg.svg",
     "flag_4x3": "flags/4x3/kg.svg",
-    "iso": true,
-    "name": "Kyrgyzstan"
+    "category": "iso",
+    "name": "吉尔吉斯斯坦"
   },
   {
-    "capital": "Vientiane",
     "code": "la",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/la.svg",
     "flag_4x3": "flags/4x3/la.svg",
-    "iso": true,
-    "name": "Laos"
+    "category": "iso",
+    "name": "老挝"
   },
   {
-    "capital": "Riga",
     "code": "lv",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/lv.svg",
     "flag_4x3": "flags/4x3/lv.svg",
-    "iso": true,
-    "name": "Latvia"
+    "category": "iso",
+    "name": "拉脱维亚"
   },
   {
     "code": "arab",
-    "flag_1x1": "flags/1x1/arab.svg",
     "flag_4x3": "flags/4x3/arab.svg",
-    "iso": false,
-    "name": "League of Arab States"
+    "category": "organization",
+    "name": "阿拉伯国家联盟"
   },
   {
-    "capital": "Beirut",
     "code": "lb",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/lb.svg",
     "flag_4x3": "flags/4x3/lb.svg",
-    "iso": true,
-    "name": "Lebanon"
+    "category": "iso",
+    "name": "黎巴嫩"
   },
   {
-    "capital": "Maseru",
     "code": "ls",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ls.svg",
     "flag_4x3": "flags/4x3/ls.svg",
-    "iso": true,
-    "name": "Lesotho"
+    "category": "iso",
+    "name": "莱索托"
   },
   {
-    "capital": "Monrovia",
     "code": "lr",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/lr.svg",
     "flag_4x3": "flags/4x3/lr.svg",
-    "iso": true,
-    "name": "Liberia"
+    "category": "iso",
+    "name": "利比里亚"
   },
   {
-    "capital": "Tripoli",
     "code": "ly",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ly.svg",
     "flag_4x3": "flags/4x3/ly.svg",
-    "iso": true,
-    "name": "Libya"
+    "category": "iso",
+    "name": "利比亚"
   },
   {
-    "capital": "Vaduz",
     "code": "li",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/li.svg",
     "flag_4x3": "flags/4x3/li.svg",
-    "iso": true,
-    "name": "Liechtenstein"
+    "category": "iso",
+    "name": "列支敦士登"
   },
   {
-    "capital": "Vilnius",
     "code": "lt",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/lt.svg",
     "flag_4x3": "flags/4x3/lt.svg",
-    "iso": true,
-    "name": "Lithuania"
+    "category": "iso",
+    "name": "立陶宛"
   },
   {
-    "capital": "Luxembourg City",
     "code": "lu",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/lu.svg",
     "flag_4x3": "flags/4x3/lu.svg",
-    "iso": true,
-    "name": "Luxembourg"
+    "category": "iso",
+    "name": "卢森堡"
   },
   {
-    "capital": "Macau",
     "code": "mo",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/mo.svg",
     "flag_4x3": "flags/4x3/mo.svg",
-    "iso": true,
-    "name": "Macau"
+    "category": "iso",
+    "name": "澳门"
   },
   {
-    "capital": "Antananarivo",
     "code": "mg",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/mg.svg",
     "flag_4x3": "flags/4x3/mg.svg",
-    "iso": true,
-    "name": "Madagascar"
+    "category": "iso",
+    "name": "马达加斯加"
   },
   {
-    "capital": "Lilongwe",
     "code": "mw",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/mw.svg",
     "flag_4x3": "flags/4x3/mw.svg",
-    "iso": true,
-    "name": "Malawi"
+    "category": "iso",
+    "name": "马拉维"
   },
   {
-    "capital": "Kuala Lumpur",
     "code": "my",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/my.svg",
     "flag_4x3": "flags/4x3/my.svg",
-    "iso": true,
-    "name": "Malaysia"
+    "category": "iso",
+    "name": "马来西亚"
   },
   {
-    "capital": "Malé",
     "code": "mv",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/mv.svg",
     "flag_4x3": "flags/4x3/mv.svg",
-    "iso": true,
-    "name": "Maldives"
+    "category": "iso",
+    "name": "马尔代夫"
   },
   {
-    "capital": "Bamako",
     "code": "ml",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ml.svg",
     "flag_4x3": "flags/4x3/ml.svg",
-    "iso": true,
-    "name": "Mali"
+    "category": "iso",
+    "name": "马里"
   },
   {
-    "capital": "Valletta",
     "code": "mt",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/mt.svg",
     "flag_4x3": "flags/4x3/mt.svg",
-    "iso": true,
-    "name": "Malta"
+    "category": "iso",
+    "name": "马耳他"
   },
   {
-    "capital": "Majuro",
     "code": "mh",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/mh.svg",
     "flag_4x3": "flags/4x3/mh.svg",
-    "iso": true,
-    "name": "Marshall Islands"
+    "category": "iso",
+    "name": "马绍尔群岛"
   },
   {
-    "capital": "Fort-de-France",
     "code": "mq",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/mq.svg",
     "flag_4x3": "flags/4x3/mq.svg",
-    "iso": true,
-    "name": "Martinique"
+    "category": "iso",
+    "name": "马提尼克"
   },
   {
-    "capital": "Nouakchott",
     "code": "mr",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/mr.svg",
     "flag_4x3": "flags/4x3/mr.svg",
-    "iso": true,
-    "name": "Mauritania"
+    "category": "iso",
+    "name": "毛里塔尼亚"
   },
   {
-    "capital": "Port Louis",
     "code": "mu",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/mu.svg",
     "flag_4x3": "flags/4x3/mu.svg",
-    "iso": true,
-    "name": "Mauritius"
+    "category": "iso",
+    "name": "毛里求斯"
   },
   {
-    "capital": "Mamoudzou",
     "code": "yt",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/yt.svg",
     "flag_4x3": "flags/4x3/yt.svg",
-    "iso": true,
-    "name": "Mayotte"
+    "category": "iso",
+    "name": "马约特"
   },
   {
-    "capital": "Mexico City",
     "code": "mx",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/mx.svg",
     "flag_4x3": "flags/4x3/mx.svg",
-    "iso": true,
-    "name": "Mexico"
+    "category": "iso",
+    "name": "墨西哥"
   },
   {
-    "capital": "Chișinău",
     "code": "md",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/md.svg",
     "flag_4x3": "flags/4x3/md.svg",
-    "iso": true,
-    "name": "Moldova"
+    "category": "iso",
+    "name": "摩尔多瓦"
   },
   {
-    "capital": "Monaco",
     "code": "mc",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/mc.svg",
     "flag_4x3": "flags/4x3/mc.svg",
-    "iso": true,
-    "name": "Monaco"
+    "category": "iso",
+    "name": "摩纳哥"
   },
   {
-    "capital": "Ulaanbaatar",
     "code": "mn",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/mn.svg",
     "flag_4x3": "flags/4x3/mn.svg",
-    "iso": true,
-    "name": "Mongolia"
+    "category": "iso",
+    "name": "蒙古"
   },
   {
-    "capital": "Podgorica",
     "code": "me",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/me.svg",
     "flag_4x3": "flags/4x3/me.svg",
-    "iso": true,
-    "name": "Montenegro"
+    "category": "iso",
+    "name": "黑山"
   },
   {
-    "capital": "Little Bay, Brades, Plymouth",
     "code": "ms",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ms.svg",
     "flag_4x3": "flags/4x3/ms.svg",
-    "iso": true,
-    "name": "Montserrat"
+    "category": "iso",
+    "name": "蒙特塞拉特"
   },
   {
-    "capital": "Rabat",
     "code": "ma",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ma.svg",
     "flag_4x3": "flags/4x3/ma.svg",
-    "iso": true,
-    "name": "Morocco"
+    "category": "iso",
+    "name": "摩洛哥"
   },
   {
-    "capital": "Maputo",
     "code": "mz",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/mz.svg",
     "flag_4x3": "flags/4x3/mz.svg",
-    "iso": true,
-    "name": "Mozambique"
+    "category": "iso",
+    "name": "莫桑比克"
   },
   {
-    "capital": "Naypyidaw",
     "code": "mm",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/mm.svg",
     "flag_4x3": "flags/4x3/mm.svg",
-    "iso": true,
-    "name": "Myanmar"
+    "category": "iso",
+    "name": "缅甸"
   },
   {
-    "capital": "Windhoek",
     "code": "na",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/na.svg",
     "flag_4x3": "flags/4x3/na.svg",
-    "iso": true,
-    "name": "Namibia"
+    "category": "iso",
+    "name": "纳米比亚"
   },
   {
-    "capital": "Yaren District",
     "code": "nr",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/nr.svg",
     "flag_4x3": "flags/4x3/nr.svg",
-    "iso": true,
-    "name": "Nauru"
+    "category": "iso",
+    "name": "瑙鲁"
   },
   {
-    "capital": "Kathmandu",
     "code": "np",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/np.svg",
     "flag_4x3": "flags/4x3/np.svg",
-    "iso": true,
-    "name": "Nepal"
+    "category": "iso",
+    "name": "尼泊尔"
   },
   {
-    "capital": "Amsterdam",
     "code": "nl",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/nl.svg",
     "flag_4x3": "flags/4x3/nl.svg",
-    "iso": true,
-    "name": "Netherlands"
+    "category": "iso",
+    "name": "荷兰"
   },
   {
-    "capital": "Nouméa",
     "code": "nc",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/nc.svg",
     "flag_4x3": "flags/4x3/nc.svg",
-    "iso": true,
-    "name": "New Caledonia"
+    "category": "iso",
+    "name": "新喀里多尼亚"
   },
   {
-    "capital": "Wellington",
     "code": "nz",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/nz.svg",
     "flag_4x3": "flags/4x3/nz.svg",
-    "iso": true,
-    "name": "New Zealand"
+    "category": "iso",
+    "name": "新西兰"
   },
   {
-    "capital": "Managua",
     "code": "ni",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/ni.svg",
     "flag_4x3": "flags/4x3/ni.svg",
-    "iso": true,
-    "name": "Nicaragua"
+    "category": "iso",
+    "name": "尼加拉瓜"
   },
   {
-    "capital": "Niamey",
     "code": "ne",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ne.svg",
     "flag_4x3": "flags/4x3/ne.svg",
-    "iso": true,
-    "name": "Niger"
+    "category": "iso",
+    "name": "尼日尔"
   },
   {
-    "capital": "Abuja",
     "code": "ng",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ng.svg",
     "flag_4x3": "flags/4x3/ng.svg",
-    "iso": true,
-    "name": "Nigeria"
+    "category": "iso",
+    "name": "尼日利亚"
   },
   {
-    "capital": "Alofi",
     "code": "nu",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/nu.svg",
     "flag_4x3": "flags/4x3/nu.svg",
-    "iso": true,
-    "name": "Niue"
+    "category": "iso",
+    "name": "纽埃"
   },
   {
-    "capital": "Kingston",
     "code": "nf",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/nf.svg",
     "flag_4x3": "flags/4x3/nf.svg",
-    "iso": true,
-    "name": "Norfolk Island"
+    "category": "iso",
+    "name": "诺福克岛"
   },
   {
-    "capital": "Pyongyang",
     "code": "kp",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/kp.svg",
     "flag_4x3": "flags/4x3/kp.svg",
-    "iso": true,
-    "name": "North Korea"
+    "category": "iso",
+    "name": "朝鲜"
   },
   {
-    "capital": "Skopje",
     "code": "mk",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/mk.svg",
     "flag_4x3": "flags/4x3/mk.svg",
-    "iso": true,
-    "name": "North Macedonia"
+    "category": "iso",
+    "name": "北马其顿"
   },
   {
-    "capital": "Belfast",
     "code": "gb-nir",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gb-nir.svg",
     "flag_4x3": "flags/4x3/gb-nir.svg",
-    "iso": false,
-    "name": "Northern Ireland"
+    "category": "region",
+    "name": "北爱尔兰"
   },
   {
-    "capital": "Saipan",
     "code": "mp",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/mp.svg",
     "flag_4x3": "flags/4x3/mp.svg",
-    "iso": true,
-    "name": "Northern Mariana Islands"
+    "category": "iso",
+    "name": "北马里亚纳群岛"
   },
   {
-    "capital": "Oslo",
     "code": "no",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/no.svg",
     "flag_4x3": "flags/4x3/no.svg",
-    "iso": true,
-    "name": "Norway"
+    "category": "iso",
+    "name": "挪威"
   },
   {
-    "capital": "Muscat",
     "code": "om",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/om.svg",
     "flag_4x3": "flags/4x3/om.svg",
-    "iso": true,
-    "name": "Oman"
+    "category": "iso",
+    "name": "阿曼"
   },
   {
     "code": "pc",
-    "flag_1x1": "flags/1x1/pc.svg",
     "flag_4x3": "flags/4x3/pc.svg",
-    "iso": false,
-    "name": "Pacific Community"
+    "category": "organization",
+    "name": "太平洋共同体"
   },
   {
-    "capital": "Islamabad",
     "code": "pk",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/pk.svg",
     "flag_4x3": "flags/4x3/pk.svg",
-    "iso": true,
-    "name": "Pakistan"
+    "category": "iso",
+    "name": "巴基斯坦"
   },
   {
-    "capital": "Ngerulmud",
     "code": "pw",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/pw.svg",
     "flag_4x3": "flags/4x3/pw.svg",
-    "iso": true,
-    "name": "Palau"
+    "category": "iso",
+    "name": "帕劳"
   },
   {
-    "capital": "Panama City",
     "code": "pa",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/pa.svg",
     "flag_4x3": "flags/4x3/pa.svg",
-    "iso": true,
-    "name": "Panama"
+    "category": "iso",
+    "name": "巴拿马"
   },
   {
-    "capital": "Port Moresby",
     "code": "pg",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/pg.svg",
     "flag_4x3": "flags/4x3/pg.svg",
-    "iso": true,
-    "name": "Papua New Guinea"
+    "category": "iso",
+    "name": "巴布亚新几内亚"
   },
   {
-    "capital": "Asunción",
     "code": "py",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/py.svg",
     "flag_4x3": "flags/4x3/py.svg",
-    "iso": true,
-    "name": "Paraguay"
+    "category": "iso",
+    "name": "巴拉圭"
   },
   {
-    "capital": "Lima",
     "code": "pe",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/pe.svg",
     "flag_4x3": "flags/4x3/pe.svg",
-    "iso": true,
-    "name": "Peru"
+    "category": "iso",
+    "name": "秘鲁"
   },
   {
-    "capital": "Manila",
     "code": "ph",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/ph.svg",
     "flag_4x3": "flags/4x3/ph.svg",
-    "iso": true,
-    "name": "Philippines"
+    "category": "iso",
+    "name": "菲律宾"
   },
   {
-    "capital": "Adamstown",
     "code": "pn",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/pn.svg",
     "flag_4x3": "flags/4x3/pn.svg",
-    "iso": true,
-    "name": "Pitcairn"
+    "category": "iso",
+    "name": "皮特凯恩群岛"
   },
   {
-    "capital": "Warsaw",
     "code": "pl",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/pl.svg",
     "flag_4x3": "flags/4x3/pl.svg",
-    "iso": true,
-    "name": "Poland"
+    "category": "iso",
+    "name": "波兰"
   },
   {
-    "capital": "Lisbon",
     "code": "pt",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/pt.svg",
     "flag_4x3": "flags/4x3/pt.svg",
-    "iso": true,
-    "name": "Portugal"
+    "category": "iso",
+    "name": "葡萄牙"
   },
   {
-    "capital": "San Juan",
     "code": "pr",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/pr.svg",
     "flag_4x3": "flags/4x3/pr.svg",
-    "iso": true,
-    "name": "Puerto Rico"
+    "category": "iso",
+    "name": "波多黎各"
   },
   {
-    "capital": "Doha",
     "code": "qa",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/qa.svg",
     "flag_4x3": "flags/4x3/qa.svg",
-    "iso": true,
-    "name": "Qatar"
+    "category": "iso",
+    "name": "卡塔尔"
   },
   {
-    "capital": "Brazzaville",
     "code": "cg",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/cg.svg",
     "flag_4x3": "flags/4x3/cg.svg",
-    "iso": true,
-    "name": "Republic of the Congo"
+    "category": "iso",
+    "name": "刚果共和国"
   },
   {
-    "capital": "Bucharest",
     "code": "ro",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ro.svg",
     "flag_4x3": "flags/4x3/ro.svg",
-    "iso": true,
-    "name": "Romania"
+    "category": "iso",
+    "name": "罗马尼亚"
   },
   {
-    "capital": "Moscow",
     "code": "ru",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ru.svg",
     "flag_4x3": "flags/4x3/ru.svg",
-    "iso": true,
-    "name": "Russia"
+    "category": "iso",
+    "name": "俄罗斯"
   },
   {
-    "capital": "Kigali",
     "code": "rw",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/rw.svg",
     "flag_4x3": "flags/4x3/rw.svg",
-    "iso": true,
-    "name": "Rwanda"
+    "category": "iso",
+    "name": "卢旺达"
   },
   {
-    "capital": "Saint-Denis",
     "code": "re",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/re.svg",
     "flag_4x3": "flags/4x3/re.svg",
-    "iso": true,
-    "name": "Réunion"
+    "category": "iso",
+    "name": "留尼汪"
   },
   {
-    "capital": "Gustavia",
     "code": "bl",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/bl.svg",
     "flag_4x3": "flags/4x3/bl.svg",
-    "iso": true,
-    "name": "Saint Barthélemy"
+    "category": "iso",
+    "name": "圣巴泰勒米"
   },
   {
-    "capital": "Jamestown",
     "code": "sh-hl",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sh-hl.svg",
     "flag_4x3": "flags/4x3/sh-hl.svg",
-    "iso": false,
-    "name": "Saint Helena"
+    "category": "region",
+    "name": "圣赫勒拿"
   },
   {
-    "capital": "Jamestown",
     "code": "sh",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sh.svg",
     "flag_4x3": "flags/4x3/sh.svg",
-    "iso": true,
-    "name": "Saint Helena, Ascension and Tristan da Cunha"
+    "category": "iso",
+    "name": "圣赫勒拿、阿森松和特里斯坦-达库尼亚"
   },
   {
-    "capital": "Basseterre",
     "code": "kn",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/kn.svg",
     "flag_4x3": "flags/4x3/kn.svg",
-    "iso": true,
-    "name": "Saint Kitts and Nevis"
+    "category": "iso",
+    "name": "圣基茨和尼维斯"
   },
   {
-    "capital": "Castries",
     "code": "lc",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/lc.svg",
     "flag_4x3": "flags/4x3/lc.svg",
-    "iso": true,
-    "name": "Saint Lucia"
+    "category": "iso",
+    "name": "圣卢西亚"
   },
   {
-    "capital": "Marigot",
     "code": "mf",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/mf.svg",
     "flag_4x3": "flags/4x3/mf.svg",
-    "iso": true,
-    "name": "Saint Martin"
+    "category": "iso",
+    "name": "圣马丁"
   },
   {
-    "capital": "Saint-Pierre",
     "code": "pm",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/pm.svg",
     "flag_4x3": "flags/4x3/pm.svg",
-    "iso": true,
-    "name": "Saint Pierre and Miquelon"
+    "category": "iso",
+    "name": "圣皮埃尔和密克隆"
   },
   {
-    "capital": "Kingstown",
     "code": "vc",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/vc.svg",
     "flag_4x3": "flags/4x3/vc.svg",
-    "iso": true,
-    "name": "Saint Vincent and the Grenadines"
+    "category": "iso",
+    "name": "圣文森特和格林纳丁斯"
   },
   {
-    "capital": "Apia",
     "code": "ws",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/ws.svg",
     "flag_4x3": "flags/4x3/ws.svg",
-    "iso": true,
-    "name": "Samoa"
+    "category": "iso",
+    "name": "萨摩亚"
   },
   {
-    "capital": "San Marino",
     "code": "sm",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/sm.svg",
     "flag_4x3": "flags/4x3/sm.svg",
-    "iso": true,
-    "name": "San Marino"
+    "category": "iso",
+    "name": "圣马力诺"
   },
   {
-    "capital": "São Tomé",
     "code": "st",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/st.svg",
     "flag_4x3": "flags/4x3/st.svg",
-    "iso": true,
-    "name": "Sao Tome and Principe"
+    "category": "iso",
+    "name": "圣多美和普林西比"
   },
   {
-    "capital": "Riyadh",
     "code": "sa",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/sa.svg",
     "flag_4x3": "flags/4x3/sa.svg",
-    "iso": true,
-    "name": "Saudi Arabia"
+    "category": "iso",
+    "name": "沙特阿拉伯"
   },
   {
-    "capital": "Edinburgh",
     "code": "gb-sct",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gb-sct.svg",
     "flag_4x3": "flags/4x3/gb-sct.svg",
-    "iso": false,
-    "name": "Scotland"
+    "category": "region",
+    "name": "苏格兰"
   },
   {
-    "capital": "Dakar",
     "code": "sn",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sn.svg",
     "flag_4x3": "flags/4x3/sn.svg",
-    "iso": true,
-    "name": "Senegal"
+    "category": "iso",
+    "name": "塞内加尔"
   },
   {
-    "capital": "Belgrade",
     "code": "rs",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/rs.svg",
     "flag_4x3": "flags/4x3/rs.svg",
-    "iso": true,
-    "name": "Serbia"
+    "category": "iso",
+    "name": "塞尔维亚"
   },
   {
-    "capital": "Victoria",
     "code": "sc",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sc.svg",
     "flag_4x3": "flags/4x3/sc.svg",
-    "iso": true,
-    "name": "Seychelles"
+    "category": "iso",
+    "name": "塞舌尔"
   },
   {
-    "capital": "Freetown",
     "code": "sl",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sl.svg",
     "flag_4x3": "flags/4x3/sl.svg",
-    "iso": true,
-    "name": "Sierra Leone"
+    "category": "iso",
+    "name": "塞拉利昂"
   },
   {
-    "capital": "Singapore",
     "code": "sg",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/sg.svg",
     "flag_4x3": "flags/4x3/sg.svg",
-    "iso": true,
-    "name": "Singapore"
+    "category": "iso",
+    "name": "新加坡"
   },
   {
-    "capital": "Philipsburg",
     "code": "sx",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/sx.svg",
     "flag_4x3": "flags/4x3/sx.svg",
-    "iso": true,
-    "name": "Sint Maarten"
+    "category": "iso",
+    "name": "圣马丁（荷属）"
   },
   {
-    "capital": "Bratislava",
     "code": "sk",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/sk.svg",
     "flag_4x3": "flags/4x3/sk.svg",
-    "iso": true,
-    "name": "Slovakia"
+    "category": "iso",
+    "name": "斯洛伐克"
   },
   {
-    "capital": "Ljubljana",
     "code": "si",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/si.svg",
     "flag_4x3": "flags/4x3/si.svg",
-    "iso": true,
-    "name": "Slovenia"
+    "category": "iso",
+    "name": "斯洛文尼亚"
   },
   {
-    "capital": "Honiara",
     "code": "sb",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/sb.svg",
     "flag_4x3": "flags/4x3/sb.svg",
-    "iso": true,
-    "name": "Solomon Islands"
+    "category": "iso",
+    "name": "所罗门群岛"
   },
   {
-    "capital": "Mogadishu",
     "code": "so",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/so.svg",
     "flag_4x3": "flags/4x3/so.svg",
-    "iso": true,
-    "name": "Somalia"
+    "category": "iso",
+    "name": "索马里"
   },
   {
-    "capital": "Pretoria",
     "code": "za",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/za.svg",
     "flag_4x3": "flags/4x3/za.svg",
-    "iso": true,
-    "name": "South Africa"
+    "category": "iso",
+    "name": "南非"
   },
   {
-    "capital": "King Edward Point",
     "code": "gs",
-    "continent": "Antarctica",
-    "flag_1x1": "flags/1x1/gs.svg",
     "flag_4x3": "flags/4x3/gs.svg",
-    "iso": true,
-    "name": "South Georgia and the South Sandwich Islands"
+    "category": "iso",
+    "name": "南乔治亚和南桑威奇群岛"
   },
   {
-    "capital": "Seoul",
     "code": "kr",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/kr.svg",
     "flag_4x3": "flags/4x3/kr.svg",
-    "iso": true,
-    "name": "South Korea"
+    "category": "iso",
+    "name": "韩国"
   },
   {
-    "capital": "Juba",
     "code": "ss",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ss.svg",
     "flag_4x3": "flags/4x3/ss.svg",
-    "iso": true,
-    "name": "South Sudan"
+    "category": "iso",
+    "name": "南苏丹"
   },
   {
-    "capital": "Madrid",
     "code": "es",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/es.svg",
     "flag_4x3": "flags/4x3/es.svg",
-    "iso": true,
-    "name": "Spain"
+    "category": "iso",
+    "name": "西班牙"
   },
   {
-    "capital": "Sri Jayawardenepura Kotte, Colombo",
     "code": "lk",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/lk.svg",
     "flag_4x3": "flags/4x3/lk.svg",
-    "iso": true,
-    "name": "Sri Lanka"
+    "category": "iso",
+    "name": "斯里兰卡"
   },
   {
-    "capital": "Ramallah",
     "code": "ps",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/ps.svg",
     "flag_4x3": "flags/4x3/ps.svg",
-    "iso": true,
-    "name": "State of Palestine"
+    "category": "iso",
+    "name": "巴勒斯坦国"
   },
   {
-    "capital": "Khartoum",
     "code": "sd",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sd.svg",
     "flag_4x3": "flags/4x3/sd.svg",
-    "iso": true,
-    "name": "Sudan"
+    "category": "iso",
+    "name": "苏丹"
   },
   {
-    "capital": "Paramaribo",
     "code": "sr",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/sr.svg",
     "flag_4x3": "flags/4x3/sr.svg",
-    "iso": true,
-    "name": "Suriname"
+    "category": "iso",
+    "name": "苏里南"
   },
   {
-    "capital": "Longyearbyen",
     "code": "sj",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/sj.svg",
     "flag_4x3": "flags/4x3/sj.svg",
-    "iso": true,
-    "name": "Svalbard and Jan Mayen"
+    "category": "iso",
+    "name": "斯瓦尔巴和扬马延"
   },
   {
-    "capital": "Stockholm",
     "code": "se",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/se.svg",
     "flag_4x3": "flags/4x3/se.svg",
-    "iso": true,
-    "name": "Sweden"
+    "category": "iso",
+    "name": "瑞典"
   },
   {
-    "capital": "Bern",
     "code": "ch",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ch.svg",
     "flag_4x3": "flags/4x3/ch.svg",
-    "iso": true,
-    "name": "Switzerland"
+    "category": "iso",
+    "name": "瑞士"
   },
   {
-    "capital": "Damascus",
     "code": "sy",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/sy.svg",
     "flag_4x3": "flags/4x3/sy.svg",
-    "iso": true,
-    "name": "Syria"
+    "category": "iso",
+    "name": "叙利亚"
   },
   {
-    "capital": "Taipei",
     "code": "tw",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/tw.svg",
     "flag_4x3": "flags/4x3/tw.svg",
-    "iso": true,
-    "name": "Taiwan"
+    "category": "iso",
+    "name": "中国台湾省"
   },
   {
-    "capital": "Dushanbe",
     "code": "tj",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/tj.svg",
     "flag_4x3": "flags/4x3/tj.svg",
-    "iso": true,
-    "name": "Tajikistan"
+    "category": "iso",
+    "name": "塔吉克斯坦"
   },
   {
-    "capital": "Dodoma",
     "code": "tz",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/tz.svg",
     "flag_4x3": "flags/4x3/tz.svg",
-    "iso": true,
-    "name": "Tanzania"
+    "category": "iso",
+    "name": "坦桑尼亚"
   },
   {
-    "capital": "Bangkok",
     "code": "th",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/th.svg",
     "flag_4x3": "flags/4x3/th.svg",
-    "iso": true,
-    "name": "Thailand"
+    "category": "iso",
+    "name": "泰国"
   },
   {
-    "capital": "Dili",
     "code": "tl",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/tl.svg",
     "flag_4x3": "flags/4x3/tl.svg",
-    "iso": true,
-    "name": "Timor-Leste"
+    "category": "iso",
+    "name": "东帝汶"
   },
   {
-    "capital": "Lomé",
     "code": "tg",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/tg.svg",
     "flag_4x3": "flags/4x3/tg.svg",
-    "iso": true,
-    "name": "Togo"
+    "category": "iso",
+    "name": "多哥"
   },
   {
-    "capital": "Nukunonu, Atafu,Tokelau",
     "code": "tk",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/tk.svg",
     "flag_4x3": "flags/4x3/tk.svg",
-    "iso": true,
-    "name": "Tokelau"
+    "category": "iso",
+    "name": "托克劳"
   },
   {
-    "capital": "Nukuʻalofa",
     "code": "to",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/to.svg",
     "flag_4x3": "flags/4x3/to.svg",
-    "iso": true,
-    "name": "Tonga"
+    "category": "iso",
+    "name": "汤加"
   },
   {
-    "capital": "Port of Spain",
     "code": "tt",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/tt.svg",
     "flag_4x3": "flags/4x3/tt.svg",
-    "iso": true,
-    "name": "Trinidad and Tobago"
+    "category": "iso",
+    "name": "特立尼达和多巴哥"
   },
   {
-    "capital": "Edinburgh of the Seven Seas",
     "code": "sh-ta",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/sh-ta.svg",
     "flag_4x3": "flags/4x3/sh-ta.svg",
-    "iso": false,
-    "name": "Tristan da Cunha"
+    "category": "region",
+    "name": "特里斯坦-达库尼亚"
   },
   {
-    "capital": "Tunis",
     "code": "tn",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/tn.svg",
     "flag_4x3": "flags/4x3/tn.svg",
-    "iso": true,
-    "name": "Tunisia"
+    "category": "iso",
+    "name": "突尼斯"
   },
   {
-    "capital": "Ashgabat",
     "code": "tm",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/tm.svg",
     "flag_4x3": "flags/4x3/tm.svg",
-    "iso": true,
-    "name": "Turkmenistan"
+    "category": "iso",
+    "name": "土库曼斯坦"
   },
   {
-    "capital": "Cockburn Town",
     "code": "tc",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/tc.svg",
     "flag_4x3": "flags/4x3/tc.svg",
-    "iso": true,
-    "name": "Turks and Caicos Islands"
+    "category": "iso",
+    "name": "特克斯和凯科斯群岛"
   },
   {
-    "capital": "Funafuti",
     "code": "tv",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/tv.svg",
     "flag_4x3": "flags/4x3/tv.svg",
-    "iso": true,
-    "name": "Tuvalu"
+    "category": "iso",
+    "name": "图瓦卢"
   },
   {
-    "capital": "Ankara",
     "code": "tr",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/tr.svg",
     "flag_4x3": "flags/4x3/tr.svg",
-    "iso": true,
-    "name": "Türkiye"
+    "category": "iso",
+    "name": "土耳其"
   },
   {
-    "capital": "Kampala",
     "code": "ug",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/ug.svg",
     "flag_4x3": "flags/4x3/ug.svg",
-    "iso": true,
-    "name": "Uganda"
+    "category": "iso",
+    "name": "乌干达"
   },
   {
-    "capital": "Kiev",
     "code": "ua",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/ua.svg",
     "flag_4x3": "flags/4x3/ua.svg",
-    "iso": true,
-    "name": "Ukraine"
+    "category": "iso",
+    "name": "乌克兰"
   },
   {
-    "capital": "Abu Dhabi",
     "code": "ae",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/ae.svg",
     "flag_4x3": "flags/4x3/ae.svg",
-    "iso": true,
-    "name": "United Arab Emirates"
+    "category": "iso",
+    "name": "阿拉伯联合酋长国"
   },
   {
-    "capital": "London",
     "code": "gb",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gb.svg",
     "flag_4x3": "flags/4x3/gb.svg",
-    "iso": true,
-    "name": "United Kingdom"
+    "category": "iso",
+    "name": "英国"
   },
   {
     "code": "un",
-    "flag_1x1": "flags/1x1/un.svg",
     "flag_4x3": "flags/4x3/un.svg",
-    "iso": false,
-    "name": "United Nations"
+    "category": "organization",
+    "name": "联合国"
   },
   {
-    "capital": "Washington, D.C.",
     "code": "um",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/um.svg",
     "flag_4x3": "flags/4x3/um.svg",
-    "iso": true,
-    "name": "United States Minor Outlying Islands"
+    "category": "iso",
+    "name": "美国本土外小岛屿"
   },
   {
-    "capital": "Washington, D.C.",
     "code": "us",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/us.svg",
     "flag_4x3": "flags/4x3/us.svg",
-    "iso": true,
-    "name": "United States of America"
+    "category": "iso",
+    "name": "美国"
   },
   {
     "code": "xx",
-    "flag_1x1": "flags/1x1/xx.svg",
     "flag_4x3": "flags/4x3/xx.svg",
-    "iso": false,
-    "name": "Unknown"
+    "category": "other",
+    "name": "未知"
   },
   {
-    "capital": "Montevideo",
     "code": "uy",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/uy.svg",
     "flag_4x3": "flags/4x3/uy.svg",
-    "iso": true,
-    "name": "Uruguay"
+    "category": "iso",
+    "name": "乌拉圭"
   },
   {
-    "capital": "Tashkent",
     "code": "uz",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/uz.svg",
     "flag_4x3": "flags/4x3/uz.svg",
-    "iso": true,
-    "name": "Uzbekistan"
+    "category": "iso",
+    "name": "乌兹别克斯坦"
   },
   {
-    "capital": "Port Vila",
     "code": "vu",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/vu.svg",
     "flag_4x3": "flags/4x3/vu.svg",
-    "iso": true,
-    "name": "Vanuatu"
+    "category": "iso",
+    "name": "瓦努阿图"
   },
   {
-    "capital": "Caracas",
     "code": "ve",
-    "continent": "South America",
-    "flag_1x1": "flags/1x1/ve.svg",
     "flag_4x3": "flags/4x3/ve.svg",
-    "iso": true,
-    "name": "Venezuela"
+    "category": "iso",
+    "name": "委内瑞拉"
   },
   {
-    "capital": "Hanoi",
     "code": "vn",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/vn.svg",
     "flag_4x3": "flags/4x3/vn.svg",
-    "iso": true,
-    "name": "Vietnam"
+    "category": "iso",
+    "name": "越南"
   },
   {
-    "capital": "Road Town",
     "code": "vg",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/vg.svg",
     "flag_4x3": "flags/4x3/vg.svg",
-    "iso": true,
-    "name": "Virgin Islands (British)"
+    "category": "iso",
+    "name": "英属维尔京群岛"
   },
   {
-    "capital": "Charlotte Amalie",
     "code": "vi",
-    "continent": "North America",
-    "flag_1x1": "flags/1x1/vi.svg",
     "flag_4x3": "flags/4x3/vi.svg",
-    "iso": true,
-    "name": "Virgin Islands (U.S.)"
+    "category": "iso",
+    "name": "美属维尔京群岛"
   },
   {
-    "capital": "Cardiff",
     "code": "gb-wls",
-    "continent": "Europe",
-    "flag_1x1": "flags/1x1/gb-wls.svg",
     "flag_4x3": "flags/4x3/gb-wls.svg",
-    "iso": false,
-    "name": "Wales"
+    "category": "region",
+    "name": "威尔士"
   },
   {
-    "capital": "Mata-Utu",
     "code": "wf",
-    "continent": "Oceania",
-    "flag_1x1": "flags/1x1/wf.svg",
     "flag_4x3": "flags/4x3/wf.svg",
-    "iso": true,
-    "name": "Wallis and Futuna"
+    "category": "iso",
+    "name": "瓦利斯和富图纳"
   },
   {
-    "capital": "Laayoune",
     "code": "eh",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/eh.svg",
     "flag_4x3": "flags/4x3/eh.svg",
-    "iso": true,
-    "name": "Western Sahara"
+    "category": "iso",
+    "name": "西撒哈拉"
   },
   {
-    "capital": "Sana'a",
     "code": "ye",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/ye.svg",
     "flag_4x3": "flags/4x3/ye.svg",
-    "iso": true,
-    "name": "Yemen"
+    "category": "iso",
+    "name": "也门"
   },
   {
-    "capital": "Lusaka",
     "code": "zm",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/zm.svg",
     "flag_4x3": "flags/4x3/zm.svg",
-    "iso": true,
-    "name": "Zambia"
+    "category": "iso",
+    "name": "赞比亚"
   },
   {
-    "capital": "Harare",
     "code": "zw",
-    "continent": "Africa",
-    "flag_1x1": "flags/1x1/zw.svg",
     "flag_4x3": "flags/4x3/zw.svg",
-    "iso": true,
-    "name": "Zimbabwe"
+    "category": "iso",
+    "name": "津巴布韦"
+  },
+  {
+    "code": "ge-ab",
+    "flag_4x3": "flags/4x3/ge-ab.svg",
+    "category": "disputed",
+    "name": "阿布哈兹"
+  },
+  {
+    "code": "ge-os",
+    "flag_4x3": "flags/4x3/ge-os.svg",
+    "category": "disputed",
+    "name": "南奥塞梯"
+  },
+  {
+    "code": "md-pmr",
+    "flag_4x3": "flags/4x3/md-pmr.svg",
+    "category": "disputed",
+    "name": "德涅斯特河沿岸"
+  },
+  {
+    "code": "su",
+    "flag_4x3": "flags/4x3/su.svg",
+    "category": "historic",
+    "name": "苏联"
+  },
+  {
+    "code": "yu",
+    "flag_4x3": "flags/4x3/yu.svg",
+    "category": "historic",
+    "name": "南斯拉夫"
   }
 ]
