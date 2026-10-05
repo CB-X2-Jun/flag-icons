@@ -1,86 +1,31 @@
-# flag-icons
+# Flag Icons (纯 CSS 版)
 
-> A curated collection of all country flags in SVG — plus the CSS for easier integration. See the [demo](https://flagicons.lipis.dev).
+一个 4x3 格式的 SVG 旗帜合集 —— 附带 CSS 以便于集成。
 
-## Install
+**注意：本项目仅提供 4:3 格式的旗帜，不支持 1:1 方形旗帜，且无需 npm 安装。**
 
-You can either [download](https://github.com/lipis/flag-icons/archive/main.zip) the whole project as is or install it via npm or Yarn:
+## 如何使用
 
-```bash
-npm install flag-icons
-# or
-yarn add flag-icons
-```
+1. 将 `flags/4x3/` 文件夹和 `css/flag-icons.min.css` 复制到你的项目中。
+2. 在 HTML 的 `<head>` 中引入 CSS：
+   ```html
+   <link rel="stylesheet" href="css/flag-icons.min.css" />
+   ```
+3. 在页面中使用旗帜：
+   ```
+   <span class="fi fi-cn"></span> 中国
+   <span class="fi fi-us"></span> 美国
+   <span class="fi fi-su"></span> 苏联
+   ```
 
-## Usage
+## 分类
+- ISO：标准国家代码（包括港、澳、台等地区）
+- Region：地区与属地（如英格兰、苏格兰、加泰罗尼亚）
+- Disputed：争议地区（如阿布哈兹、南奥塞梯、德左、科索沃）
+- Organization：国际组织（如联合国、欧盟、东盟）
+- Historic：历史政权（如苏联、南斯拉夫）
+- Other：其他
 
-First, you need to import css:
+## 许可
 
-```js
-import "/node_modules/flag-icons/css/flag-icons.min.css";
-```
-
-or use CDN:
-
-```html
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
-/>
-```
-
-or use SASS:
-
-```scss
-@use "node_modules/flag-icons/sass/flag-icons";
-
-// or with custom configuration
-@use "node_modules/flag-icons/sass/flag-icons" with (
-  // Override path to flags directory
-  $flag-icons-path: "node_modules/flag-icons/flags",
-
-  // Include only specific country flags
-  $flag-icons-included-countries: ("gr", "de", "gb")
-);
-```
-
-You can find all available variables in [`sass/_variables.scss`](sass/_variables.scss).
-
-For using the flags inline with text add the classes `.fi` and `.fi-xx` (where `xx` is the [ISO 3166-1-alpha-2 code](https://www.iso.org/obp/ui/#search/code/) of a country) to an empty `<span>`. If you want to have a squared version flag then add the class `fis` as well. Example:
-
-```html
-<span class="fi fi-gr"></span> <span class="fi fi-gr fis"></span>
-```
-
-You could also apply this to any element, but in that case you'll have to use the `fib` instead of `fi` and you're set. This will add the correct background with the following CSS properties:
-
-```css
-background-size: contain;
-background-position: 50%;
-background-repeat: no-repeat;
-```
-
-Which means that the flag is just going to appear in the middle of an element, so you will have to set manually the correct size of 4 by 3 ratio or if it's squared add also the `flag-icon-squared` class.
-
-## Development
-
-Run the `yarn` to install the dependencies after cloning the project and you'll be able to:
-
-To build `*.scss` files
-
-```bash
-$ yarn build
-```
-
-To serve it on `localhost:8000`
-
-```bash
-$ yarn start
-```
-
-To have only specific countries in the css file, remove the ones that you don't need from the [`_flag-icons-list.scss`](sass/_flag-icons-list.scss) file and build it again.
-
-## Credits
-
-- This project wouldn't exist without the awesome and now deleted collection of SVG flags by [koppi](https://github.com/koppi).
-- Thank you [Andrejs Abrickis](https://twitter.com/andrejsabrickis) for providing the `flag-icons` name on [npm](https://www.npmjs.com/package/flag-icons).
+MIT LICENSE
