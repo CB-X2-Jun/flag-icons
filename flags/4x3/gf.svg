@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-gf" viewBox="0 0 640 480">
-  <path fill="#fff" d="M0 0h640v480H0z"/>
-  <path fill="#000091" d="M0 0h213.3v480H0z"/>
-  <path fill="#e1000f" d="M426.7 0H640v480H426.7z"/>
+  <polygon fill="#078930" points="0 0 640 0 640 480"/>
+  <polygon fill="#FCDD09" points="0 0 640 480 0 480"/>
+  <polygon fill="#DA121A" transform="translate(320 240) scale(80)" points="0 -1
+    0.5877852522924731 0.8090169943749475
+    -0.9510565162951536 -0.3090169943749475
+    0.9510565162951536 -0.3090169943749475
+    -0.5877852522924731 0.8090169943749475"/>
 </svg>
