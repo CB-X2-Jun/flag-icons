@@ -663,7 +663,7 @@
     "code": "va",
     "flag_4x3": "flags/4x3/va.svg",
     "category": "iso",
-    "name": "教廷"
+    "name": "梵蒂冈（教廷）"
   },
   {
     "code": "hn",
@@ -1654,5 +1654,11 @@
     "flag_4x3": "flags/4x3/yu.svg",
     "category": "historic",
     "name": "南斯拉夫"
+  },
+  {
+    "code": "cn-qing",
+    "flag_4x3": "flags/4x3/cn-qing.svg",
+    "category": "historic",
+    "name": "大清"
   }
 ]
