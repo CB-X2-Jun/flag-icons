@@ -1696,5 +1696,29 @@
     "flag_4x3": "flags/4x3/ir-pah.svg",
     "category": "historic",
     "name": "伊朗王国"
+  },
+  {
+    "code": "nato",
+    "flag_4x3": "flags/4x3/nato.svg",
+    "category": "organization",
+    "name": "北大西洋公约组织"
+  },
+  {
+    "code": "unpo",
+    "flag_4x3": "flags/4x3/unpo.svg",
+    "category": "organization",
+    "name": "无代表国家和民族组织"
+  },
+  {
+    "code": "et-og",
+    "flag_4x3": "flags/4x3/et-og.svg",
+    "category": "disputed",
+    "name": "欧加登"
+  },
+  {
+    "code": "so-sld",
+    "flag_4x3": "flags/4x3/so-sld.svg",
+    "category": "disputed",
+    "name": "索马里兰"
   }
 ]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-et-og" viewBox="0 0 640 480">
+  <rect fill="#fe0000" width="640" height="480"/>
+  <rect fill="#004080" width="640" height="320"/>
+  <rect fill="#008100" width="640" height="160"/>
+  <g id="s" transform="translate(320,248) scale(67.5556)">
+    <g id="t">
+      <polygon id="w" fill="#fff" points="0,0 0,1 .5,1" transform="translate(0,-1) rotate(18)"/>
+      <use xlink:href="#w" transform="scale(-1,1)"/>
+    </g>
+    <use xlink:href="#t" transform="rotate(72)"/>
+    <use xlink:href="#t" transform="rotate(-72)"/>
+    <use xlink:href="#t" transform="rotate(144)"/>
+    <use xlink:href="#t" transform="rotate(-144)"/>
+  </g>
+</svg>
