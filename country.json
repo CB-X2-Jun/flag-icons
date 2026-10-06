@@ -1690,5 +1690,11 @@
     "flag_4x3": "flags/4x3/ua-luh.svg",
     "category": "disputed",
     "name": "卢甘斯克人民共和国"
+  },
+  {
+    "code": "ir-pah",
+    "flag_4x3": "flags/4x3/ir-pah.svg",
+    "category": "historic",
+    "name": "伊朗王国"
   }
 ]
