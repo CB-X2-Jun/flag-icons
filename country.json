@@ -1720,5 +1720,29 @@
     "flag_4x3": "flags/4x3/so-sld.svg",
     "category": "disputed",
     "name": "索马里兰"
+  },
+  {
+    "code": "mm-cld",
+    "flag_4x3": "flags/4x3/mm-cld.svg",
+    "category": "disputed",
+    "name": "钦兰"
+  },
+  {
+    "code": "mm-shn",
+    "flag_4x3": "flags/4x3/mm-shn.svg",
+    "category": "disputed",
+    "name": "掸邦共和国"
+  },
+  {
+    "code": "id-wp",
+    "flag_4x3": "flags/4x3/id-wp.svg",
+    "category": "disputed",
+    "name": "西巴布亚"
+  },
+  {
+    "code": "ao-cab",
+    "flag_4x3": "flags/4x3/ao-cab.svg",
+    "category": "disputed",
+    "name": "卡宾达共和国"
   }
 ]

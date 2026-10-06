@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-id-wp" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#069"/>
+  <rect y="36.92" width="640" height="36.92" fill="#fff"/>
+  <rect y="110.77" width="640" height="36.92" fill="#fff"/>
+  <rect y="184.62" width="640" height="36.92" fill="#fff"/>
+  <rect y="258.46" width="640" height="36.92" fill="#fff"/>
+  <rect y="332.31" width="640" height="36.92" fill="#fff"/>
+  <rect y="406.15" width="640" height="36.92" fill="#fff"/>
+  <rect width="170.67" height="480" fill="#d00"/>
+  <path d="m5.1 33.4 5.3-16.5 5.3 16.5-14-10.2h17.4" fill="#fff"
+        transform="translate(85.335,232.15) scale(8.2051) translate(-10.4,-25.15)"/>
+</svg>

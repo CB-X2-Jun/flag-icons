@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-mm-shn" viewBox="0 0 640 480">
+  <rect fill="#bd2921" width="640" height="480"/>
+  <rect fill="#104a31" width="640" height="320"/>
+  <rect fill="#efad10" width="640" height="160"/>
+  <circle fill="#fff" cx="320" cy="240" r="133.3333"/>
+</svg>
