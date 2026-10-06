@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-cy-no" viewBox="0 0 640 480">
+  <g transform="translate(0, 26.6667) scale(0.711111)">
+    <path fill="#fff" d="M0 0h900v600H0z"/>
+    <circle cx="300" cy="300" r="150" fill="#e30a17"/>
+    <circle cx="337.5" cy="300" r="120" fill="#fff"/>
+    <path fill="#e30a17" d="M0 30h900v60H0zM0 510h900v60H0zM417.5 300l135.676275-44.083894-83.852549 115.413133v-142.658477l83.852549 115.413133z"/>
+  </g>
+</svg>

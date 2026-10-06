@@ -1660,5 +1660,35 @@
     "flag_4x3": "flags/4x3/cn-qing.svg",
     "category": "historic",
     "name": "大清"
+  },
+  {
+    "code": "sik",
+    "flag_4x3": "flags/4x3/sik.svg",
+    "category": "historic",
+    "name": "锡金"
+  },
+  {
+    "code": "az-nk",
+    "flag_4x3": "flags/4x3/az-nk.svg",
+    "category": "disputed",
+    "name": "阿尔查赫共和国"
+  },
+  {
+    "code": "cy-no",
+    "flag_4x3": "flags/4x3/cy-no.svg",
+    "category": "disputed",
+    "name": "北塞浦路斯"
+  },
+  {
+    "code": "ua-don",
+    "flag_4x3": "flags/4x3/ua-don.svg",
+    "category": "disputed",
+    "name": "顿涅茨克人民共和国"
+  },
+  {
+    "code": "ua-luh",
+    "flag_4x3": "flags/4x3/ua-luh.svg",
+    "category": "disputed",
+    "name": "卢甘斯克人民共和国"
   }
 ]
