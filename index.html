@@ -6,10 +6,10 @@
     <title>Flag Icons: 免费 SVG 旗帜合集（纯 CSS）</title>
     <meta property="og:title" content="Flag Icons: 免费 SVG 旗帜合集（纯 CSS）" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://flags.etoj.run.place" />
+    <meta property="og:url" content="https://flags.etoj.run.place" />
     <meta property="og:description" content="一个 4x3 格式的 SVG 旗帜合集 —— 无需 npm，纯 CSS 引入" />
-    <meta property="og:image" content="http://flags.etoj.run.place/assets/og.png" />
-    <link rel="canonical" href="http://flags.etoj.run.place" />
+    <meta property="og:image" content="https://flags.etoj.run.place/assets/og.png" />
+    <link rel="canonical" href="https://flags.etoj.run.place" />
     <link rel="icon" href="/favicon.ico" />
 
     <!-- 主样式 -->
@@ -146,6 +146,28 @@
       .filter-option:hover { background-color: var(--light); }
       .filter-option.active { background-color: var(--light); color: var(--primary); font-weight: 500; }
 
+      /* 排序下拉框 */
+      .sort-dropdown { position: relative; }
+      .sort-dropdown select {
+        appearance: none;
+        -webkit-appearance: none;
+        background-color: white;
+        border: 1px solid var(--light-gray);
+        border-radius: var(--border-radius);
+        padding: 0.6rem 2.2rem 0.6rem 1rem;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: var(--transition);
+        font-family: inherit;
+        color: var(--dark);
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23495057'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 0.7rem center;
+        background-size: 12px;
+      }
+      .sort-dropdown select:hover { border-color: var(--gray); }
+      .sort-dropdown select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(43, 138, 62, 0.1); }
+
       /* 旗帜网格 */
       .section-title { text-align: center; margin: 2rem 0 1.5rem; color: var(--dark); font-weight: 600; font-size: 1.5rem; }
       .flags-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.5rem; padding-bottom: 2rem; }
@@ -232,6 +254,13 @@
             <div class="filter-option" data-filter="historic">历史</div>
             <div class="filter-option" data-filter="other">其他</div>
           </div>
+        </div>
+
+        <div class="sort-dropdown">
+          <select id="sort-select">
+            <option value="name">按汉字排序</option>
+            <option value="code">按代码排序</option>
+          </select>
         </div>
       </div>
 
@@ -335,11 +364,15 @@
       const filterDropdown = document.querySelector(".filter-dropdown");
       const filterOptions = document.querySelectorAll(".filter-option");
       const codeBlockCopyBtns = document.querySelectorAll(".code-copy-btn");
+      const sortSelect = document.getElementById("sort-select");
 
       // 状态
       let allFlags = [];
       let tooltipTimeout;
       let currentFilter = "all";
+      let currentSort = "name";
+
+      const CATEGORIES = ['iso', 'region', 'disputed', 'organization', 'historic', 'other'];
 
       // 创建旗帜卡片
       const createFlagCard = (country) => {
@@ -414,6 +447,32 @@
         });
       };
 
+      // 渲染旗帜（排序 + 按分类挂载）
+      const renderFlags = () => {
+        // 1. 清空所有网格
+        CATEGORIES.forEach(cat => {
+          const grid = document.getElementById(`${cat}-flags`);
+          if (grid) grid.innerHTML = "";
+        });
+
+        // 2. 排序
+        if (currentSort === "code") {
+          allFlags.sort((a, b) => a.country.code.localeCompare(b.country.code));
+        } else {
+          allFlags.sort((a, b) => a.country.name.localeCompare(b.country.name, 'zh-CN'));
+        }
+
+        // 3. 重新挂载
+        allFlags.forEach(flag => {
+          const cat = flag.country.category || "other";
+          const grid = document.getElementById(`${cat}-flags`);
+          if (grid) grid.appendChild(flag.element);
+        });
+
+        // 4. 重新应用当前筛选（防止排序后显示状态丢失）
+        filterFlags();
+      };
+
       // 切换筛选下拉菜单
       const toggleFilterDropdown = () => {
         filterDropdown.classList.toggle("active");
@@ -445,32 +504,35 @@
       const init = async () => {
         try {
           const countries = await loadJSON("country.json");
-          countries.sort((a, b) => a.name.localeCompare(b.name));
 
-          const categories = ['iso', 'region', 'disputed', 'organization', 'historic', 'other'];
-
-          categories.forEach(cat => {
-            const grid = document.getElementById(`${cat}-flags`);
-            const title = document.getElementById(`title-${cat}`);
-            if (!grid) return;
-
+          // 先按分类挂载到 allFlags 数组（不直接渲染）
+          CATEGORIES.forEach(cat => {
             const filtered = countries.filter(c => (c.category || 'other') === cat);
+            const title = document.getElementById(`title-${cat}`);
+            const grid = document.getElementById(`${cat}-flags`);
 
             if (filtered.length === 0) {
               if (title) title.style.display = 'none';
-              grid.style.display = 'none';
+              if (grid) grid.style.display = 'none';
               return;
             }
 
             filtered.forEach(country => {
               const card = createFlagCard(country);
-              grid.appendChild(card);
               allFlags.push({ country, element: card });
             });
           });
 
+          // 首次渲染（默认按汉字排序）
+          renderFlags();
+
           // 事件监听
           searchInput.addEventListener("input", filterFlags);
+
+          sortSelect.addEventListener("change", (e) => {
+            currentSort = e.target.value;
+            renderFlags();
+          });
 
           usageBtn.addEventListener("click", () => {
             usageModal.classList.add("active");
