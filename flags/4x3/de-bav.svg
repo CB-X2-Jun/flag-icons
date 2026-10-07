@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-de-bav" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#ffffff"/>
+  <g transform="translate(-80,0) scale(5)">
+    <g transform="rotate(22.5,-76.992111,85.869083)">
+      <g id="2Reihen">
+        <g id="Reihe">
+          <g id="4Rauten">
+            <g id="2Rauten">
+              <path d="M 0,0 H 24 L 41,17 H 17 Z" id="Raute" style="fill:#0098d4;fill-opacity:1"/>
+              <use xlink:href="#Raute" transform="translate(-7,17)"/>
+            </g>
+            <use xlink:href="#2Rauten" transform="translate(-34,-34)"/>
+          </g>
+          <use xlink:href="#4Rauten" transform="translate(68,68)"/>
+        </g>
+        <use xlink:href="#Reihe" transform="translate(-14,34)"/>
+      </g>
+      <use xlink:href="#2Reihen" transform="translate(28,-68)"/>
+      <use xlink:href="#2Reihen" transform="translate(56,-136)"/>
+    </g>
+  </g>
+</svg>

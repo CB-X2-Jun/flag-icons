@@ -135,7 +135,7 @@
     "code": "es-pv",
     "flag_4x3": "flags/4x3/es-pv.svg",
     "category": "region",
-    "name": "巴斯克地区"
+    "name": "巴斯克地区自治区（西班牙）"
   },
   {
     "code": "by",
@@ -273,7 +273,7 @@
     "code": "es-ct",
     "flag_4x3": "flags/4x3/es-ct.svg",
     "category": "region",
-    "name": "加泰罗尼亚"
+    "name": "加泰罗尼亚（西班牙）"
   },
   {
     "code": "ky",
@@ -453,7 +453,7 @@
     "code": "gb-eng",
     "flag_4x3": "flags/4x3/gb-eng.svg",
     "category": "region",
-    "name": "英格兰"
+    "name": "英格兰（英国）"
   },
   {
     "code": "gq",
@@ -555,7 +555,7 @@
     "code": "es-ga",
     "flag_4x3": "flags/4x3/es-ga.svg",
     "category": "region",
-    "name": "加利西亚"
+    "name": "加利西亚自治区（西班牙）"
   },
   {
     "code": "gm",
@@ -1065,7 +1065,7 @@
     "code": "gb-nir",
     "flag_4x3": "flags/4x3/gb-nir.svg",
     "category": "region",
-    "name": "北爱尔兰"
+    "name": "北爱尔兰（英国）"
   },
   {
     "code": "mp",
@@ -1269,7 +1269,7 @@
     "code": "gb-sct",
     "flag_4x3": "flags/4x3/gb-sct.svg",
     "category": "region",
-    "name": "苏格兰"
+    "name": "苏格兰（英国）"
   },
   {
     "code": "sn",
@@ -1593,7 +1593,7 @@
     "code": "gb-wls",
     "flag_4x3": "flags/4x3/gb-wls.svg",
     "category": "region",
-    "name": "威尔士"
+    "name": "威尔士（英国）"
   },
   {
     "code": "wf",
@@ -1653,7 +1653,7 @@
     "code": "yu",
     "flag_4x3": "flags/4x3/yu.svg",
     "category": "historic",
-    "name": "南斯拉夫"
+    "name": "南斯拉夫（南斯拉夫社会主义联邦共和国）"
   },
   {
     "code": "cn-qing",
@@ -1670,7 +1670,7 @@
   {
     "code": "az-nk",
     "flag_4x3": "flags/4x3/az-nk.svg",
-    "category": "disputed",
+    "category": "historic", // 我也不知道，它到底是 disputed 还是 historic
     "name": "阿尔查赫共和国"
   },
   {
@@ -1858,5 +1858,71 @@
     "flag_4x3": "flags/4x3/sealand.svg",
     "category": "disputed",
     "name": "西兰公国"
+  },
+  {
+    "code": "hrp",
+    "flag_4x3": "flags/4x3/hrp.svg",
+    "category": "historic",
+    "name": "赫特河公国"
+  },
+  {
+    "code": "de-kai",
+    "flag_4x3": "flags/4x3/de-kai.svg",
+    "category": "historic",
+    "name": "德意志第二帝国（德意志帝国）"
+  },
+  {
+    "code": "cs",
+    "flag_4x3": "flags/4x3/cs.svg",
+    "category": "historic",
+    "name": "捷克斯洛伐克"
+  },
+  {
+    "code": "vn-rvn",
+    "flag_4x3": "flags/4x3/vn-rvn.svg",
+    "category": "historic",
+    "name": "越南共和国（南越）"
+  },
+  {
+    "code": "zr",
+    "flag_4x3": "flags/4x3/zr.svg",
+    "category": "historic",
+    "name": "扎伊尔"
+  },
+  {
+    "code": "de-bav",
+    "flag_4x3": "flags/4x3/de-bav.svg",
+    "category": "historic",
+    "name": "巴伐利亚公国"
+  },
+  {
+    "code": "scg",
+    "flag_4x3": "flags/4x3/scg.svg",
+    "category": "historic",
+    "name": "塞尔维亚和黑山国家联盟"
+  },
+  {
+    "code": "yu-fry",
+    "flag_4x3": "flags/4x3/yu-fry.svg",
+    "category": "historic",
+    "name": "南斯拉夫联盟共和国（南联盟）"
+  },
+  {
+    "code": "so-bun",
+    "flag_4x3": "flags/4x3/so-bun.svg",
+    "category": "region",
+    "name": "邦特兰州（索马里）"
+  },
+  {
+    "code": "bia",
+    "flag_4x3": "flags/4x3/bia.svg",
+    "category": "historic",
+    "name": "比亚法拉"
+  },
+  {
+    "code": "om-emp",
+    "flag_4x3": "flags/4x3/om-emp.svg",
+    "category": "historic",
+    "name": "阿曼帝国"
   }
 ]

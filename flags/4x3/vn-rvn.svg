@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-vn-rvn" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#ff0"/>
+  <g stroke="#da251d" stroke-width="32">
+    <path d="M0 176h640"/>
+    <path d="M0 240h640"/>
+    <path d="M0 304h640"/>
+  </g>
+</svg>

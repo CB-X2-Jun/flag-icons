@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-so-bun" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#4189DD"/>
+  <rect y="160" width="640" height="160" fill="#fff"/>
+  <rect y="320" width="640" height="160" fill="#00a330"/>
+  <g transform="translate(320, 80) scale(53.3333)">
+    <g id="t">
+      <polygon id="w" fill="#fff" points="0,0 0,1 0.5,1" transform="translate(0, -1) rotate(18)"/>
+      <use xlink:href="#w" transform="scale(-1, 1)"/>
+    </g>
+    <use xlink:href="#t" transform="rotate(72)"/>
+    <use xlink:href="#t" transform="rotate(-72)"/>
+    <use xlink:href="#t" transform="rotate(144)"/>
+    <use xlink:href="#t" transform="rotate(-144)"/>
+  </g>
+</svg>
