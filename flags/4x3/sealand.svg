@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-sealand" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#ED2939"/>
+  <path d="M0 480 640 0v160L213.333 480z" fill="#FFF"/>
+  <path d="M640 160 213.333 480H640z" fill="#2D2C2F"/>
+</svg>

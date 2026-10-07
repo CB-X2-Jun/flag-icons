@@ -1852,5 +1852,11 @@
     "flag_4x3": "flags/4x3/py-spd.svg",
     "category": "region",
     "name": "圣佩德罗省（巴拉圭）"
+  },
+  {
+    "code": "sealand",
+    "flag_4x3": "flags/4x3/sealand.svg",
+    "category": "disputed",
+    "name": "西兰公国"
   }
 ]
