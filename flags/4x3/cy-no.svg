@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-cy-no" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#ffffff"/>
   <g transform="translate(0, 26.6667) scale(0.711111)">
     <path fill="#fff" d="M0 0h900v600H0z"/>
     <circle cx="300" cy="300" r="150" fill="#e30a17"/>
