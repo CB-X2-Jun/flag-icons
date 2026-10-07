@@ -17,14 +17,16 @@
    <span class="fi fi-cn"></span> 中国
    <span class="fi fi-us"></span> 美国
    <span class="fi fi-su"></span> 苏联
+   <span class="fi fi-nato"></span> 北约
+   <span class="fi fi-ge-os"></span> 南奥塞梯
    ```
 
 ## 分类
-- ISO：标准ISO国家地区代码（包括港、澳、台、格陵兰、阿兰群岛等地区）
+- ISO：标准ISO国家地区代码（包括港、澳、台、格陵兰、奥兰群岛等地区）
 - Region：地区与属地（如英格兰、苏格兰、加泰罗尼亚）
 - Disputed：争议地区（如阿布哈兹、南奥塞梯、德左、科索沃）
-- Organization：国际组织（如联合国、欧盟、东盟）
-- Historic：历史政权（如苏联、南斯拉夫）
+- Organization：国际组织（如联合国、欧盟、东盟、北约）
+- Historic：历史或已消亡政权（如苏联、南斯拉夫、赫特河公国）
 - Other：其他
 
 ## 许可
