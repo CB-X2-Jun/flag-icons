@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-py-caz" viewBox="0 0 640 480">
+  <g transform="translate(-64, 0) scale(1.2)">
+    <rect width="640" height="400" fill="#d52b1e"/>
+    <path d="M0,0H640V200H320z" fill="#009b3a"/>
+    <rect width="320" height="200" fill="#fff"/>
+  </g>
+</svg>

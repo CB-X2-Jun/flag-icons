@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-py-mis" viewBox="0 0 640 480">
+  <rect width="640" height="96" fill="#fedf00"/>
+  <rect y="96" width="640" height="48" fill="#d52b1e"/>
+  <rect y="144" width="640" height="192" fill="#ffffff"/>
+  <rect y="336" width="640" height="48" fill="#0038a8"/>
+  <rect y="384" width="640" height="96" fill="#009b3a"/>
+</svg>

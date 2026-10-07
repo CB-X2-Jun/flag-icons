@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-py-con" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#d52b1e"/>
+  <path d="M0,360 V0 H640 z" fill="#0038a8"/>
+  <path d="M0,480 H640 V120 z" fill="#fff"/>
+</svg>

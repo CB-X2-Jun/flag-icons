@@ -1744,5 +1744,113 @@
     "flag_4x3": "flags/4x3/ao-cab.svg",
     "category": "disputed",
     "name": "卡宾达共和国"
+  },
+  {
+    "code": "py-alp",
+    "flag_4x3": "flags/4x3/py-alp.svg",
+    "category": "region",
+    "name": "上巴拉圭省（巴拉圭）"
+  },
+  {
+    "code": "py-ama",
+    "flag_4x3": "flags/4x3/py-ama.svg",
+    "category": "region",
+    "name": "阿曼拜省（巴拉圭）"
+  },
+  {
+    "code": "py-apr",
+    "flag_4x3": "flags/4x3/py-apr.svg",
+    "category": "region",
+    "name": "上巴拉那省（巴拉圭）"
+  },
+  {
+    "code": "py-asu",
+    "flag_4x3": "flags/4x3/py-asu.svg",
+    "category": "region",
+    "name": "亚松森首都区（巴拉圭）"
+  },
+  {
+    "code": "py-boq",
+    "flag_4x3": "flags/4x3/py-boq.svg",
+    "category": "region",
+    "name": "博克龙省（巴拉圭）"
+  },
+  {
+    "code": "py-cag",
+    "flag_4x3": "flags/4x3/py-cag.svg",
+    "category": "region",
+    "name": "卡瓜苏省（巴拉圭）"
+  },
+  {
+    "code": "py-can",
+    "flag_4x3": "flags/4x3/py-can.svg",
+    "category": "region",
+    "name": "卡宁德尤省（巴拉圭）"
+  },
+  {
+    "code": "py-caz",
+    "flag_4x3": "flags/4x3/py-caz.svg",
+    "category": "region",
+    "name": "卡萨帕省（巴拉圭）"
+  },
+  {
+    "code": "py-cen",
+    "flag_4x3": "flags/4x3/py-cen.svg",
+    "category": "region",
+    "name": "中央省（巴拉圭）"
+  },
+  {
+    "code": "py-con",
+    "flag_4x3": "flags/4x3/py-con.svg",
+    "category": "region",
+    "name": "康塞普西翁省（巴拉圭）"
+  },
+  {
+    "code": "py-cor",
+    "flag_4x3": "flags/4x3/py-cor.svg",
+    "category": "region",
+    "name": "科迪勒拉省（巴拉圭）"
+  },
+  {
+    "code": "py-gua",
+    "flag_4x3": "flags/4x3/py-gua.svg",
+    "category": "region",
+    "name": "瓜伊拉省（巴拉圭）"
+  },
+  {
+    "code": "py-ita",
+    "flag_4x3": "flags/4x3/py-ita.svg",
+    "category": "region",
+    "name": "伊塔普阿省（巴拉圭）"
+  },
+  {
+    "code": "py-mis",
+    "flag_4x3": "flags/4x3/py-mis.svg",
+    "category": "region",
+    "name": "米西奥内斯省（巴拉圭）"
+  },
+  {
+    "code": "py-nem",
+    "flag_4x3": "flags/4x3/py-nem.svg",
+    "category": "region",
+    "name": "涅恩布库省（巴拉圭）"
+  },
+  {
+    "code": "py-par",
+    "flag_4x3": "flags/4x3/py-par.svg",
+    "category": "region",
+    "name": "巴拉瓜里省（巴拉圭）"
+  },
+  {
+    "code": "py-prh",
+    "flag_4x3": "flags/4x3/py-prh.svg",
+    "category": "region",
+    "name": "阿耶斯总统省（巴拉圭）"
+  },
+  {
+    "code": "py-spd",
+    "flag_4x3": "flags/4x3/py-spd.svg",
+    "category": "region",
+    "name": "圣佩德罗省（巴拉圭）"
   }
 ]

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-py-can" viewBox="0 0 640 480">
+  <rect width="640" height="240" fill="#008001"/>
+  <rect y="240" width="640" height="80" fill="#0000d2"/>
+  <rect y="320" width="640" height="80" fill="#ffffff"/>
+  <rect y="400" width="640" height="80" fill="#d50100"/>
+</svg>
