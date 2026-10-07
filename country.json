@@ -1670,7 +1670,7 @@
   {
     "code": "az-nk",
     "flag_4x3": "flags/4x3/az-nk.svg",
-    "category": "historic", // 我也不知道，它到底是 disputed 还是 historic
+    "category": "historic",
     "name": "阿尔查赫共和国"
   },
   {
